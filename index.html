@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101827"><title>MEDSHUBH V13</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101827"><title>MEDSHUBH V14</title>
 <style>
 :root{--bg:#0b1220;--panel:#131e30;--panel2:#1b2940;--text:#f4f7fb;--muted:#aab8cc;--blue:#69a7ff;--green:#35c98a;--red:#ff7474;--gold:#f4c76b}*{box-sizing:border-box}body{margin:0;background:linear-gradient(160deg,#101b2d,#080e19);color:var(--text);font-family:Arial,sans-serif;min-height:100vh}header{text-align:center;padding:22px 16px 12px}header h1{margin:0;font-size:30px;letter-spacing:2px}header p,.muted,.small{color:var(--muted)}header p{font-size:13px}main{max-width:850px;margin:auto;padding:12px 15px 40px}.card{background:var(--panel);border:1px solid #293952;border-radius:18px;padding:18px;margin:12px 0;box-shadow:0 10px 30px #0003}h2{font-size:20px;margin:0 0 12px}.small{font-size:12px}button,select{font:inherit}button{cursor:pointer;border:0;border-radius:12px;padding:12px 14px;font-weight:700}.exam-grid,.subject-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px}.exam-btn,.subject-btn{background:var(--panel2);border:1px solid #344a68;color:var(--text);text-align:left;min-height:70px}.exam-btn span,.subject-btn small{display:block;color:var(--muted);font-size:12px;font-weight:400;margin-top:7px}.primary{background:var(--blue);color:#071326}.secondary{background:#2a3a53;color:var(--text)}.danger{background:#4b2934;color:#ffdfe3}.hide{display:none!important}.row{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{background:var(--panel2);border-radius:12px;padding:12px;text-align:center}.stat b{display:block;font-size:22px}.stat span{font-size:11px;color:var(--muted)}.tag{display:inline-block;border-radius:99px;padding:6px 10px;background:#263b58;color:#bcd7ff;font-size:11px;font-weight:700}select{background:#1b2940;color:var(--text);border:1px solid #405570;border-radius:10px;padding:9px}#timer{font-size:21px;font-weight:800;color:var(--gold)}.progress{height:7px;background:#26364e;border-radius:99px;overflow:hidden;margin:12px 0}.progress>div{height:100%;background:var(--blue);width:0}#question{font-size:19px;line-height:1.5;margin:18px 0}.options{display:grid;gap:10px}.option{width:100%;text-align:left;background:#1b2940;border:1px solid #354b69;color:var(--text);line-height:1.4}.option.selected{border:2px solid var(--blue);background:#203b5e}.option.correct{border:2px solid var(--green);background:#173d35}.option.wrong{border:2px solid var(--red);background:#492a35}.feedback{margin-top:15px;padding:15px;background:#172a36;border:1px solid #315a54;border-radius:13px;line-height:1.5}.feedback b{color:#8fe2ba}.nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.nav button{flex:1}.palette{display:grid;grid-template-columns:repeat(8,1fr);gap:7px;margin-top:12px}.qnum{padding:9px 0;background:#26364e;color:var(--text);border:1px solid #3c506c}.qnum.current{outline:2px solid var(--blue)}.qnum.done{background:#18523e}.qnum.review{box-shadow:inset 0 -4px var(--gold)}hr{border:0;border-top:1px solid #30415a;margin:15px 0}@media(max-width:480px){header h1{font-size:25px}.card{padding:14px}.palette{grid-template-columns:repeat(6,1fr)}#question{font-size:17px}}
 
 .sim-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:9px;margin:12px 0}.sim-choice{background:#1b2940;color:var(--text);border:1px solid #405570}.sim-choice.active{outline:2px solid var(--blue);background:#203b5e}.dash-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}.dash-item{background:var(--panel2);border-radius:12px;padding:13px}.dash-item b{display:block;font-size:23px}.dash-item span{font-size:11px;color:var(--muted)}.review-row{padding:12px;margin:9px 0;border-radius:12px;background:#1b2940;border:1px solid #354b69}.review-row.good{border-left:4px solid var(--green)}.review-row.bad{border-left:4px solid var(--red)}
 .hide{display:none!important}#flashCard{user-select:none}#flashBack{white-space:normal}
-.option-review{margin-top:14px;padding:12px;border:1px solid #34445d;border-radius:12px;background:#0e1929}.option-review h4{margin:0 0 10px}.option-rationale{padding:9px 10px;margin:8px 0;border-radius:9px;background:#172438;border-left:4px solid #8b9bb2}.option-rationale p{margin:6px 0 0;line-height:1.45}.option-rationale.right-option{border-left-color:#35c98a}.option-rationale.wrong-option{border-left-color:#f4c76b}.option-review .small{color:#aab8cc;font-size:12px;margin-top:10px}</style></head><body><header><h1>MEDSHUBH</h1><p>NEET PG • FMGE • INI-CET | Practice & Revision • V12</p></header><main>
+.option-review{margin-top:14px;padding:12px;border:1px solid #34445d;border-radius:12px;background:#0e1929}.option-review h4{margin:0 0 10px}.option-rationale{padding:9px 10px;margin:8px 0;border-radius:9px;background:#172438;border-left:4px solid #8b9bb2}.option-rationale p{margin:6px 0 0;line-height:1.45}.option-rationale.right-option{border-left-color:#35c98a}.option-rationale.wrong-option{border-left-color:#f4c76b}.option-review .small{color:#aab8cc;font-size:12px;margin-top:10px}</style></head><body><header><h1>MEDSHUBH</h1><p>NEET PG • FMGE • INI-CET | Practice & Revision • V14</p></header><main>
 <section id="examPicker" class="card"><h2>Choose your exam</h2><p class="muted">Select an exam to start subject-wise practice.</p><div class="exam-grid"><button class="exam-btn" onclick="chooseExam('FMGE')">FMGE<span>Subject-wise practice</span></button><button class="exam-btn" onclick="chooseExam('NEET PG')">NEET PG<span>Subject-wise practice</span></button><button class="exam-btn" onclick="chooseExam('INI-CET')">INI-CET<span>Integrated clinical practice</span></button></div></section>
-<section id="studyHub" class="hide"><div class="card"><div class="row"><div><span class="tag" id="selectedExamTag">FMGE</span><h2 id="selectedExamTitle" style="margin-top:10px">Practice</h2></div><button class="secondary" id="changeExam">Change exam</button></div><p class="small">Choose a study mode. Actual recalled PYQs are kept separate from original PYT-based practice. Every answered MCQ includes a four-option review and exam buzzwords; year/session labels are shown only when verified.</p>
+<section id="studyHub" class="hide"><div class="card"><div class="row"><div><span class="tag" id="selectedExamTag">FMGE</span><h2 id="selectedExamTitle" style="margin-top:10px">Practice</h2></div><button class="secondary" id="changeExam">Change exam</button></div><p class="small">Choose a study mode. Actual recalled PYQs are kept separate from original PYT-based practice. Correct answer: detailed concept explanation. Other three options: short, high-yield buzzword clues to help identify their associated diseases, drugs, organisms or concepts.</p>
 <div class="exam-grid" style="margin:14px 0"><button class="exam-btn" onclick="showMode('PYQ')">📚 Year-wise PYQ Archive<span>Verified recalled questions only</span></button><button class="exam-btn" onclick="showMode('PYT')">⚡ PYT Practice Bank<span>Expanded high-yield practice</span></button></div>
 <div class="exam-grid" style="margin:12px 0"><button class="exam-btn" onclick="openFlashcards()">🧠 Subject-wise Flashcards<span>Active recall • flip cards • spaced repetition</span></button></div>
 <div class="exam-grid" style="margin:12px 0"><button class="exam-btn" onclick="openSimulator()">📝 Full Exam Simulator<span>Timed mock • exam-style marking • final review</span></button><button class="exam-btn" onclick="openDashboard()">📊 Performance Dashboard<span>Accuracy • attempts • subject-wise progress</span></button></div>
@@ -219,14 +219,263 @@ function renderSubjects(){let data=bankForExam();let total=Object.values(data).r
 function renderStats(){$("attempted").textContent=stats.attempted;$("correctCount").textContent=stats.correct;$("accuracy").textContent=stats.attempted?Math.round(stats.correct/stats.attempted*100)+"%":"0%"}
 function startSession(s){activeQuestionType="PYT-BASED ORIGINAL";subject=s;questions=bankForExam()[s];index=0;sessionAnswers=questions.map(()=>null);marked=questions.map(()=>false);$("studyHub").classList.add("hide");$("practice").classList.remove("hide");showQuestion()}
 function escHTML(value){return String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
+// Curated recall clues for distractor options. These are short identification cues,
+// not claims that the distractor is the answer to the current stem.
+const optionClueMap = {
+"radial nerve":"Wrist drop; posterior cord of brachial plexus; spiral groove of humerus.",
+"axillary nerve":"Surgical neck of humerus; deltoid weakness; regimental-badge sensory loss.",
+"ulnar nerve":"Medial two lumbricals; interossei; claw hand; medial 1½ digits.",
+"musculocutaneous nerve":"Coracobrachialis, biceps and brachialis; sensory supply to lateral forearm.",
+"median nerve":"Thenar weakness; ape thumb; carpal tunnel; lateral 3½ digits.",
+"facial nerve":"LMN facial palsy; taste anterior two-thirds; stapedius; chorda tympani.",
+"lateral rectus":"Abducts eye; supplied by CN VI.",
+"superior oblique":"Intorts and depresses adducted eye; trochlear nerve (CN IV).",
+"inferior oblique":"Extorts and elevates adducted eye; supplied by CN III.",
+"cn iii":"Most extraocular muscles; ptosis; pupil involvement in compressive lesions.",
+"cn iv":"Trochlear nerve; superior oblique; vertical diplopia while looking down.",
+"cn v1":"Ophthalmic division; corneal reflex afferent limb.",
+"cn vi":"Abducens; lateral rectus; vulnerable in raised intracranial pressure.",
+"vagus (x)":"Motor to palate, pharynx and larynx; gag reflex efferent limb.",
+"glossopharyngeal (ix)":"Taste posterior one-third; gag reflex afferent limb; stylopharyngeus.",
+"hypoglossal (xii)":"Tongue deviation toward side of LMN lesion.",
+"thick ascending limb":"NKCC2 transporter; water-impermeable diluting segment; loop diuretics act here.",
+"thin descending limb":"Highly permeable to water; concentrates tubular fluid.",
+"proximal convoluted tubule":"Bulk reabsorption; glucose/amino acids; carbonic anhydrase-sensitive bicarbonate reabsorption.",
+"collecting duct":"ADH-regulated water permeability; principal and intercalated cells.",
+"von gierke disease":"GSD I; glucose-6-phosphatase deficiency; severe fasting hypoglycaemia and lactic acidosis.",
+"pompe disease":"GSD II; lysosomal acid alpha-glucosidase deficiency; cardiomegaly/hypertrophic cardiomyopathy.",
+"cori disease":"GSD III; debranching enzyme deficiency; limit-dextrin accumulation.",
+"mcardle disease":"GSD V; muscle glycogen phosphorylase deficiency; exercise cramps and second-wind phenomenon.",
+"maple syrup urine disease":"Branched-chain alpha-ketoacid dehydrogenase deficiency; sweet-smelling urine; leucine, isoleucine, valine.",
+"alkaptonuria":"Homogentisate oxidase deficiency; urine darkens on standing; ochronosis.",
+"homocystinuria":"Cystathionine beta-synthase deficiency; lens dislocation downwards; thrombosis; marfanoid habitus.",
+"vitamin b12":"Methylmalonic acid and homocysteine rise; megaloblastic anaemia; neurological deficits.",
+"folate":"Homocysteine rises but methylmalonic acid remains normal; neural tube defect prevention.",
+"vitamin b6":"Pyridoxine; isoniazid-associated deficiency; sideroblastic anaemia and seizures.",
+"vitamin a":"Night blindness; Bitot spots; xerophthalmia.",
+"vitamin c":"Scurvy; perifollicular haemorrhage; corkscrew hairs; poor wound healing.",
+"vitamin d":"Rickets/osteomalacia; reduced calcium and phosphate absorption.",
+"vitamin e":"Haemolytic anaemia and neurological dysfunction in deficiency.",
+"vitamin k":"Gamma-carboxylation of factors II, VII, IX, X and proteins C/S; prolonged PT first.",
+"phenytoin":"Gingival hyperplasia; hirsutism; nystagmus; CYP enzyme induction.",
+"ethambutol":"Optic neuritis; red-green colour vision defect.",
+"isoniazid":"Peripheral neuropathy; pyridoxine (B6) supplementation; hepatotoxicity.",
+"rifampicin":"Orange-red body fluids; CYP450 induction; flu-like syndrome.",
+"pyrazinamide":"Hyperuricaemia; hepatotoxicity; active in acidic intracellular environment.",
+"atropine":"Muscarinic antagonist; antidote for muscarinic manifestations of organophosphate poisoning.",
+"pralidoxime":"Reactivates acetylcholinesterase before enzyme ageing in organophosphate poisoning.",
+"neostigmine":"Reversible acetylcholinesterase inhibitor; myasthenia gravis and reversal of non-depolarising block.",
+"physostigmine":"Tertiary amine AChE inhibitor; crosses blood-brain barrier; severe anticholinergic toxicity antidote.",
+"dabigatran":"Direct thrombin (factor IIa) inhibitor; reversal with idarucizumab.",
+"rivaroxaban":"Direct factor Xa inhibitor; reversal with andexanet alfa where available.",
+"warfarin":"Vitamin K epoxide reductase inhibitor; monitor PT/INR; reversal with vitamin K/PCC.",
+"protamine sulfate":"Reverses unfractionated heparin; only partially reverses LMWH.",
+"tamsulosin":"Selective alpha-1A blocker; BPH; ejaculatory dysfunction/postural symptoms.",
+"prazosin":"Alpha-1 blocker; first-dose postural hypotension.",
+"clonidine":"Central alpha-2 agonist; rebound hypertension if abruptly stopped.",
+"haloperidol":"High-potency typical antipsychotic; EPS, hyperprolactinaemia, QT prolongation.",
+"lamotrigine":"SJS risk; useful in bipolar depression maintenance; slow titration.",
+"ethosuximide":"Absence seizures; T-type calcium channel inhibition.",
+"levetiracetam":"SV2A ligand; behavioural adverse effects; few drug interactions.",
+"tetrabenazine":"VMAT2 inhibitor; reduces monoamine storage; used for hyperkinetic movement disorders.",
+"streptococcus agalactiae":"Group B strep; CAMP positive; neonatal sepsis/meningitis.",
+"streptococcus pyogenes":"Group A beta-haemolytic strep; bacitracin sensitive; rheumatic fever.",
+"staphylococcus aureus":"Coagulase positive; protein A; abscesses and toxin-mediated disease.",
+"vibrio cholerae":"Comma-shaped oxidase-positive organism; rice-water stools; cholera toxin raises cAMP.",
+"escherichia coli":"Lactose fermenter; indole positive; common UTI organism; faecal water indicator.",
+"clostridioides difficile":"Antibiotic-associated pseudomembranous colitis; toxins A/B.",
+"clostridium tetani":"Tetanospasmin blocks inhibitory neurotransmitters; spastic paralysis.",
+"corynebacterium diphtheriae":"Metachromatic granules; pseudomembrane; toxin inhibits EF-2.",
+"mycoplasma pneumoniae":"No cell wall; cold agglutinins; atypical pneumonia.",
+"klebsiella pneumoniae":"Mucoid lactose-fermenting capsule; currant-jelly sputum association.",
+"pseudomonas aeruginosa":"Blue-green pigment; grape-like odour; oxidase positive; burns/CF infections.",
+"candida albicans":"Germ-tube positive; budding yeast with pseudohyphae.",
+"aspergillus fumigatus":"Septate hyphae with acute-angle branching; aspergilloma/invasive disease.",
+"cryptococcus neoformans":"Encapsulated yeast; India ink; meningitis in immunocompromised patients.",
+"mucor":"Broad ribbon-like pauciseptate hyphae with right-angle branching; DKA association.",
+"salmonella typhi":"Motile, H2S positive; rose spots; Vi antigen; enteric fever.",
+"shigella dysenteriae":"Non-motile; Shiga toxin inhibits 60S ribosome; dysentery/HUS.",
+"campylobacter jejuni":"Curved gull-wing rods; grows at 42°C; Guillain–Barré association.",
+"listeria monocytogenes":" tumbling motility; grows at low temperature; neonatal meningitis.",
+"treponema pallidum":"Spirochaete; VDRL/RPR screening and treponemal confirmatory tests.",
+"aedes mosquito":"Day-biting vector; dengue, chikungunya, Zika.",
+"anopheles mosquito":"Female mosquito transmits malaria; rests at an angle.",
+"culex mosquito":"Filariasis and Japanese encephalitis vector in relevant regions.",
+"tuberculosis":"Caseating granuloma; acid-fast bacilli; GeneXpert detects MTB/RIF resistance.",
+"sarcoidosis":"Non-caseating granulomas; bilateral hilar lymphadenopathy; elevated ACE may occur.",
+"crohn disease":"Transmural inflammation; skip lesions; fistula; cobblestoning.",
+"minimal change disease":"Childhood nephrotic syndrome; foot-process effacement; steroid responsive.",
+"membranous nephropathy":"Subepithelial deposits; spike-and-dome; anti-PLA2R association.",
+"diabetic nephropathy":"Kimmelstiel–Wilson nodules; GBM thickening; albuminuria.",
+"amyloidosis":"Congo-red positivity; apple-green birefringence under polarised light.",
+"retinoblastoma":"RB1 mutation; two-hit hypothesis; white pupillary reflex.",
+"clear-cell renal cell carcinoma":"VHL loss on chromosome 3p; HIF/VEGF signalling; clear cytoplasm.",
+"hodgkin lymphoma":"Reed–Sternberg cells; classical type CD15+/CD30+; owl-eye appearance.",
+"t(9;22)":"Philadelphia chromosome; BCR::ABL1; CML and some ALL.",
+"t(15;17)":"PML::RARA; acute promyelocytic leukaemia; DIC risk; ATRA treatment.",
+"t(8;14)":"MYC translocation; Burkitt lymphoma; starry-sky pattern.",
+"t(14;18)":"BCL2 overexpression; follicular lymphoma; inhibits apoptosis.",
+"lichen planus":"Six Ps; Wickham striae; interface dermatitis.",
+"psoriasis":"Auspitz sign; silvery scale; Koebner phenomenon; extensor plaques.",
+"pemphigus vulgaris":"Flaccid bullae; Nikolsky positive; intraepidermal acantholysis; anti-desmoglein.",
+"impetigo":"Honey-coloured crusts; superficial infection by S. aureus/S. pyogenes.",
+"vitiligo":"Depigmented macules; autoimmune melanocyte loss; Wood lamp accentuation.",
+"scabies":"Nocturnal pruritus; burrows; finger webs; Sarcoptes scabiei.",
+"acne vulgaris":"Comedones; pilosebaceous inflammation; Cutibacterium acnes.",
+"cataract":"Painless progressive visual loss; lens opacity; glare.",
+"central retinal artery occlusion":"Sudden painless monocular loss; cherry-red spot; retinal whitening.",
+"central retinal vein occlusion":"Blood-and-thunder fundus; dilated tortuous veins; widespread haemorrhages.",
+"glaucoma":"Optic disc cupping; retinal nerve-fibre loss; visual-field defects.",
+"achalasia":"Bird-beak appearance; absent peristalsis; failure of LES relaxation.",
+"hirschsprung disease":"Absent ganglion cells; delayed meconium; transition zone; explosive stool after rectal exam.",
+"hypertrophic pyloric stenosis":"Projectile non-bilious vomiting; olive mass; hypochloraemic metabolic alkalosis.",
+"intussusception":"Currant-jelly stool; target sign; intermittent colicky pain.",
+"duodenal atresia":"Double-bubble sign; associated with Down syndrome; bilious vomiting.",
+"meconium ileus":"Cystic fibrosis association; microcolon; soap-bubble appearance.",
+"carcinoma head of pancreas":"Painless progressive jaundice; Courvoisier sign; weight loss.",
+"acute pancreatitis":"Epigastric pain radiating to back; lipase; gallstones/alcohol.",
+"acute appendicitis":"Periumbilical pain migrating to right iliac fossa; McBurney point.",
+"acute cholecystitis":"RUQ pain; Murphy sign; gallstones; wall thickening.",
+"fibroadenoma":"Young woman; mobile, firm, well-circumscribed breast lump; breast mouse.",
+"phyllodes tumour":"Leaf-like architecture; stromal tumour; large rapidly growing breast mass.",
+"invasive ductal carcinoma":"Most common breast carcinoma; hard irregular mass; desmoplasia.",
+"invasive lobular carcinoma":"Single-file cells; loss of E-cadherin; bilateral/multifocal tendency.",
+"endometriosis":"Ectopic endometrial glands/stroma; cyclic pain; chocolate cyst.",
+"adenomyosis":"Endometrial glands within myometrium; boggy enlarged uterus; dysmenorrhoea.",
+"leiomyoma":"Benign smooth-muscle tumour; whorled cut surface; oestrogen responsive.",
+"placenta previa":"Painless bright-red bleeding in late pregnancy; avoid digital vaginal examination until excluded.",
+"abruptio placentae":"Painful bleeding; tender hypertonic uterus; concealed haemorrhage possible.",
+"ectopic pregnancy":"Amenorrhoea, pain, bleeding; positive pregnancy test; adnexal mass/free fluid.",
+"choriocarcinoma":"Very high beta-hCG; no chorionic villi; haemorrhagic metastases; responds to chemotherapy.",
+"pcos":"Oligo/anovulation; hyperandrogenism; polycystic ovarian morphology; insulin resistance.",
+"kawasaki disease":"Prolonged fever; mucocutaneous features; coronary artery aneurysm risk; IVIG.",
+"measles":"Cough, coryza, conjunctivitis; Koplik spots; cephalocaudal rash.",
+"rubella":"Postauricular/suboccipital lymphadenopathy; congenital cataract, PDA, deafness.",
+"croup":"Barking cough; steeple sign; parainfluenza; subglottic narrowing.",
+"epiglottitis":"Drooling, tripod posture, toxic child; thumb sign; Hib association.",
+"asthma":"Variable reversible airflow obstruction; eosinophils/Th2; bronchodilator reversibility.",
+"pneumocystis pneumonia":"Diffuse bilateral ground-glass opacities; HIV with low CD4; silver stain.",
+"pneumothorax":"Sudden pleuritic pain; absent breath sounds; hyperresonance; pleural line.",
+"pleural effusion":"Stony dullness; reduced breath sounds; meniscus sign.",
+"pulmonary fibrosis":"Restrictive pattern; reduced DLCO; fine end-inspiratory Velcro crackles.",
+"atrial fibrillation":"Absent discrete P waves; irregularly irregular rhythm; thromboembolic risk.",
+"nephrogenic diabetes insipidus":"Renal resistance to ADH; lithium association; poor response to desmopressin.",
+"anti-ccp":"Highly specific serological marker for rheumatoid arthritis.",
+"relative risk":"Cohort study measure; incidence in exposed divided by incidence in unexposed.",
+"odds ratio":"Common association measure in case-control studies.",
+"incidence":"New cases occurring in a population at risk over a specified time.",
+"prevalence":"All existing cases in a population at a point or over a period.",
+"bcg vaccine":"Live attenuated Mycobacterium bovis; protection strongest against severe childhood TB.",
+"echocardiography":"Assesses cardiac structure, valves and ejection fraction; first-line imaging for LV function.",
+"plasma free metanephrines":"Sensitive biochemical test for pheochromocytoma/paraganglioma.",
+"acetazolamide":"Carbonic anhydrase inhibitor; metabolic acidosis; altitude sickness and glaucoma.",
+"furosemide":"Loop diuretic; NKCC2 inhibition; hypokalaemic metabolic alkalosis; ototoxicity.",
+"amiloride":"ENaC blocker; potassium-sparing diuretic; useful in Liddle syndrome.",
+"indapamide":"Thiazide-like diuretic; hyponatraemia, hypokalaemia, hyperuricaemia.",
+"n-acetylcysteine":"Antidote for paracetamol toxicity; replenishes glutathione.",
+"idarucizumab":"Specific reversal agent for dabigatran.",
+"andexanet alfa":"Reversal agent for factor Xa inhibitors such as apixaban/rivaroxaban.",
+"calcium":"Neuromuscular transmission, bone mineralisation and intracellular signalling.",
+"potassium":"Major intracellular cation; ECG changes in hyperkalaemia include peaked T waves.",
+"aldosterone":"Increases distal sodium reabsorption and potassium/hydrogen secretion.",
+"adh":"Increases collecting-duct water permeability via aquaporin-2.",
+"anterior cerebral artery":"Medial frontal/parietal lobe; contralateral leg-predominant weakness.",
+"middle cerebral artery":"Lateral cerebral hemisphere; face/arm-predominant weakness; aphasia if dominant.",
+"posterior cerebral artery":"Occipital cortex; contralateral homonymous hemianopia.",
+"basilar artery":"Brainstem and posterior circulation; occlusion can cause locked-in syndrome.",
+"anterior cruciate ligament":"Prevents anterior translation of tibia; Lachman/anterior drawer tests.",
+"posterior cruciate ligament":"Prevents posterior translation of tibia; posterior drawer test.",
+"medial collateral ligament":"Valgus stress stabiliser of knee; medial joint line.",
+"lateral meniscus":"More mobile than medial meniscus; less commonly injured.",
+"ligamentum flavum":"Elastic ligament between laminae; thickening contributes to spinal canal stenosis.",
+"supraspinous ligament":"Connects tips of spinous processes; continues as ligamentum nuchae in cervical region.",
+"interspinous ligament":"Connects adjacent spinous processes.",
+"chance fracture":"Flexion-distraction injury; seat-belt injury; intra-abdominal injury association.",
+"burst fracture":"Axial compression; vertebral body fragments may retropulse into spinal canal.",
+"spondylolisthesis":"Forward slip of one vertebra; pars interarticularis defect in isthmic type."
+};
+// Additional high-yield clues for commonly recurring distractors.
+Object.assign(optionClueMap, {
+  'apc': 'Chromosome 5q; familial adenomatous polyposis; Wnt/beta-catenin pathway.',
+  'rb1': 'Chromosome 13q14; tumour suppressor; retinoblastoma two-hit hypothesis.',
+  'vhl': 'Chromosome 3p; HIF degradation; clear-cell renal cell carcinoma.',
+  'nf1': 'Neurofibromatosis type 1; café-au-lait macules; neurofibromas; optic glioma.',
+  'p53': 'Guardian of the genome; cell-cycle arrest/apoptosis; Li–Fraumeni syndrome.',
+  'panic disorder': 'Recurrent unexpected panic attacks; palpitations, dyspnoea and fear of dying.',
+  'specific phobia': 'Marked fear of a specific object or situation; avoidance; disproportionate anxiety.',
+  'ocd': 'Obsessions and/or compulsions; time-consuming or distressing; insight may be retained.',
+  'tinea corporis': 'Annular scaly plaque with central clearing; dermatophyte infection.',
+  'bacillus anthracis': 'Large gram-positive spore-forming rod; non-motile; poly-D-glutamate capsule.',
+  'retinal detachment': 'Flashes, floaters and curtain-like visual field loss.',
+  'uterine rupture': 'Sudden fetal bradycardia; loss of station; prior uterine scar risk.',
+  'uterine atony': 'Most common cause of postpartum haemorrhage; boggy uterus; uterotonics.',
+  'weber test': 'Conductive loss: lateralises to affected ear; sensorineural: to better ear.',
+  'rinne test': 'Air conduction normally exceeds bone conduction; negative Rinne suggests conductive loss.',
+  'cervix': 'Transformation zone; persistent high-risk HPV 16/18; cervical intraepithelial neoplasia.',
+  'ovary': 'Granulosa cells: oestrogen/inhibin; theca cells: androgen production under LH.',
+  'placenta previa': 'Painless third-trimester bleeding; placenta overlies or approaches internal os.',
+  'vasa previa': 'Fetal vessels over internal os; fetal bleeding after membrane rupture.',
+  'endometrial carcinoma': 'Postmenopausal bleeding; type I endometrioid carcinoma often oestrogen-related.',
+  'mittelschmerz': 'Mid-cycle unilateral lower abdominal pain around ovulation.',
+  'dysmenorrhoea': 'Primary dysmenorrhoea: prostaglandin-mediated crampy menstrual pain.',
+  'pelvic inflammatory disease': 'Cervical motion tenderness; ascending infection; infertility/ectopic risk.',
+  'ovarian torsion': 'Sudden unilateral pelvic pain; enlarged ovary; Doppler flow may persist.',
+  'cholangiocarcinoma': 'Painless obstructive jaundice; association with PSC and liver flukes.',
+  'gastric outlet obstruction': 'Non-bilious vomiting; succussion splash; hypochloraemic metabolic alkalosis.',
+  'dumping syndrome': 'Post-gastrectomy; early vasomotor/GI symptoms or late reactive hypoglycaemia.',
+  'juvenile nasopharyngeal angiofibroma': 'Adolescent male; recurrent epistaxis; highly vascular; avoid biopsy.',
+  'cholesteatoma': 'Keratin debris in middle ear; foul otorrhoea; scutum/ossicle erosion.',
+  'otosclerosis': 'Stapes footplate fixation; conductive hearing loss; Carhart notch.',
+  'presbycusis': 'Bilateral symmetric high-frequency sensorineural hearing loss with ageing.',
+  'coats disease': 'Retinal telangiectasia and exudation; young male; leukocoria can mimic retinoblastoma.',
+  'horner pupil': 'Ptosis, miosis and anhidrosis; sympathetic pathway lesion.',
+  'marcus gunn pupil': 'Relative afferent pupillary defect; swinging-flashlight test.',
+  'bitemporal hemianopia': 'Optic chiasm compression; classically pituitary macroadenoma.',
+  'homonymous hemianopia': 'Post-chiasmal visual pathway lesion; same visual field side in both eyes.',
+  'scarlet fever': 'Sandpaper rash; strawberry tongue; Pastia lines; group A streptococcus.',
+  'meconium aspiration': 'Respiratory distress after meconium-stained liquor; patchy infiltrates/hyperinflation.',
+  'transient tachypnea': 'Early neonatal tachypnoea; caesarean delivery risk; fluid in fissures; resolves in 24–72 h.',
+  'neonatal respiratory distress syndrome': 'Prematurity; surfactant deficiency; ground-glass lungs and air bronchograms.',
+  'epidural haematoma': 'Lens-shaped bleed; middle meningeal artery; lucid interval.',
+  'acute subdural haematoma': 'Crescent-shaped bleed; bridging veins; crosses sutures but not dural reflections.',
+  'compartment syndrome of forearm': 'Pain out of proportion; pain on passive stretch; urgent fasciotomy.',
+  'avascular necrosis of femoral head': 'Steroids, alcohol or trauma; crescent sign; subchondral collapse.',
+  'foot drop': 'Common peroneal nerve injury or L5 radiculopathy; weak dorsiflexion.',
+  'hepatitis c': 'HCV RNA confirms active infection; chronic infection can cause cirrhosis and HCC.',
+  'anti-hbs': 'Marker of immunity to hepatitis B after vaccination or recovery.',
+  'anti-hbe': 'Usually associated with reduced HBV replication/infectivity.',
+  'apo c-ii': 'Activates lipoprotein lipase; deficiency causes type I hyperlipoproteinaemia.',
+  'apo e': 'Remnant uptake by liver; Apo E2 association with type III dysbetalipoproteinaemia.',
+  'apo b-100': 'Ligand for LDL receptor; structural apoprotein of VLDL/IDL/LDL.',
+  'apo a-i': 'Major HDL apoprotein; activates LCAT.',
+  'familial hypercholesterolaemia': 'LDL receptor pathway defect; high LDL; tendon xanthomas; premature CAD.',
+  'tangier disease': 'ABCA1 deficiency; very low HDL; orange tonsils; neuropathy.',
+  'aplastic anaemia': 'Pancytopenia with hypocellular fatty marrow; typically no splenomegaly.',
+  'schirmer test': 'Measures tear production; reduced in dry eye/Sjögren syndrome.',
+  'fistula test': 'Pressure-induced nystagmus/vertigo suggests labyrinthine fistula.',
+  'proportion of diseased individuals who test positive': 'Sensitivity; true-positive rate; SnNout.',
+  'proportion of healthy individuals who test negative': 'Specificity; true-negative rate; SpPin.'
+});
+
+function getOptionBuzzword(option, q){
+  const key=String(option).trim().toLowerCase();
+  if(optionClueMap[key]) return optionClueMap[key];
+  // Safe fallback: never invent a disease association when a curated clue is unavailable.
+  if(/^vitamin\s/i.test(option)) return 'Recall the vitamin’s coenzyme role and its characteristic deficiency syndrome; a specific clue for this distractor is not yet curated.';
+  if(/^cn\s/i.test(option)) return 'Identify the cranial nerve by its number, course, functional components and characteristic palsy.';
+  if(/artery/i.test(option)) return 'Recall the artery’s territory and the characteristic neurological deficit caused by its occlusion.';
+  if(/nerve/i.test(option)) return 'Recall the nerve’s root value, course, motor supply and sensory territory.';
+  if(/mosquito/i.test(option)) return 'Identify the vector by the infection it transmits and its biting/resting pattern.';
+  if(/vaccine/i.test(option)) return 'Recall whether it is live or inactivated, its organism/platform and key contraindications.';
+  return 'Recall clue: ' + option + '. Learn its defining association; a more specific verified buzzword is not yet curated for this option.';
+}
 function optionWiseReview(q){
   const letters=['A','B','C','D'];
-  return '<div class="option-review"><h4>📖 All 4 options explained</h4>'+q.o.map((opt,i)=>{
-    const isCorrect=i===q.a;
-    let rationale=(q.optionExplanations&&q.optionExplanations[i])?q.optionExplanations[i]:
-      (isCorrect?q.e:`Not the best answer for this particular stem. The defining clue points to <b>${escHTML(q.o[q.a])}</b>. ${escHTML(opt)} may be relevant in a different clinical or factual context, but it does not fit the key clue given here.`);
-    return `<div class="option-rationale ${isCorrect?'right-option':'wrong-option'}"><b>${letters[i]}. ${escHTML(opt)} ${isCorrect?'✓ Correct':'— Not correct here'}</b><p>${rationale}</p></div>`;
-  }).join('')+'<p class="small">Note: For distractors without a separately verified rationale, the app explains why they do not fit this stem rather than inventing another disease association.</p></div>';
+  return '<div class="option-review"><h4>⚡ Other options — quick buzzword clues</h4>'+q.o.map((opt,i)=>{
+    if(i===q.a) return '';
+    const clue=(q.optionBuzzwords&&q.optionBuzzwords[i])?q.optionBuzzwords[i]:getOptionBuzzword(opt,q);
+    return `<div class="option-rationale wrong-option"><b>${letters[i]}. ${escHTML(opt)}</b><p><b>Buzzword clue:</b> ${escHTML(clue)}</p></div>`;
+  }).join('')+'<p class="small">Correct option ka detailed concept explanation upar diya gaya hai. Baaki options ke clues unke apne disease/drug/organism/concept ko yaad karne ke liye hain; ye current question ke correct answer nahi hain.</p></div>';
 }
 function showQuestion(){clearInterval(timer);let q=questions[index];selected=sessionAnswers[index]?.selected??null;answered=!!sessionAnswers[index]?.answered;seconds=40;$("qmeta").textContent=exam+" • "+subject+" • Q"+(index+1)+"/"+questions.length;$("qtype").textContent=activeQuestionType;$("question").textContent=q.q;$("options").innerHTML="";q.o.forEach((v,i)=>{let b=document.createElement("button");b.className="option";b.textContent=String.fromCharCode(65+i)+". "+v;if(selected===i)b.classList.add("selected");if(answered){if(i===q.a)b.classList.add("correct");else if(i===selected)b.classList.add("wrong")}b.onclick=()=>{if(answered)return;selected=i;sessionAnswers[index]={selected:i,answered:false};[...$("options").children].forEach((el,j)=>el.classList.toggle("selected",j===i));$("submit").disabled=false};$("options").appendChild(b)});$("feedback").classList.toggle("hide",!answered);if(answered){$("feedback").innerHTML="<b>"+(selected===q.a?"Correct!":selected===null?"Time up / Not answered":"Incorrect")+"</b><p><b>Correct answer: "+String.fromCharCode(65+q.a)+". "+escHTML(q.o[q.a])+"</b></p><p>"+q.e+"</p><b>⚡ Buzzword: "+escHTML(q.b)+"</b>"+(q.src?"<p class=\"small\">Source: "+escHTML(q.src)+"</p>":"")+optionWiseReview(q);$("submit").classList.add("hide")}else{$("submit").classList.remove("hide");$("submit").disabled=selected===null}$("markReview").textContent=marked[index]?"★ Marked for Review":"☆ Mark for Review";$("previous").disabled=index===0;$("next").textContent=index===questions.length-1?"Finish session":"Next →";$("progressBar").style.width=((index+1)/questions.length*100)+"%";renderPalette();if($("mode").value==="untimed")$("timer").textContent="∞";else{tick();if(!answered)timer=setInterval(()=>{seconds--;tick();if(seconds<=0){clearInterval(timer);submitAnswer(true)}},1000)}}
 function tick(){$("timer").textContent="00:"+String(seconds).padStart(2,"0")}function renderPalette(){$("questionPalette").innerHTML="";questions.forEach((q,i)=>{let b=document.createElement("button");b.className="qnum";b.textContent=i+1;if(i===index)b.classList.add("current");if(sessionAnswers[i]?.answered)b.classList.add("done");if(marked[i])b.classList.add("review");b.onclick=()=>{index=i;showQuestion()};$("questionPalette").appendChild(b)})}
