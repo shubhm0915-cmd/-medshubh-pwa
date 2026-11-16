@@ -24,7 +24,7 @@
 #imageZoom.open{display:flex}#imageZoom .zoom-box{width:min(96vw,900px);max-height:92vh;background:#f7f9fc;border-radius:16px;padding:12px;position:relative;overflow:auto}
 #imageZoom .zoom-content svg,#imageZoom .zoom-content img{width:100%;height:auto;max-height:78vh;object-fit:contain;display:block}#imageZoom .zoom-close{position:sticky;top:0;float:right;background:#18263a;color:white;z-index:2}
 
-/* V24: distraction-free exam mode */
+/* V25: distraction-free exam mode */
 body.exam-focus>header{display:none!important}
 body.exam-focus main{padding-top:4px;padding-bottom:18px;max-width:900px}
 body.exam-focus #practice>.card,body.exam-focus #simExam{margin:4px 0;border-radius:12px;padding:14px}
@@ -32,7 +32,7 @@ body.exam-focus #practice #question{margin:12px 0;font-size:18px;line-height:1.4
 body.exam-focus #practice .row:first-child{position:sticky;top:0;z-index:20;background:var(--panel);padding:7px 0;border-bottom:1px solid #293952}
 body.exam-focus #practice .progress,body.exam-focus #simExam .progress{margin:8px 0 12px}
 @media(max-width:480px){body.exam-focus main{padding-left:8px;padding-right:8px}body.exam-focus #practice>.card,body.exam-focus #simExam{padding:11px}body.exam-focus #practice #question{font-size:17px}}
-</style></head><body><header><h1>MEDSHUBH</h1><p>NEET PG • FMGE • INI-CET | Practice & Revision • V24</p></header><main>
+</style></head><body><header><h1>MEDSHUBH</h1><p>NEET PG • FMGE • INI-CET | Practice & Revision • V25</p></header><main>
 <section id="examPicker" class="card"><h2>Choose your exam</h2><p class="muted">Select an exam to start subject-wise practice.</p><div class="exam-grid"><button class="exam-btn" onclick="chooseExam('FMGE')">FMGE<span>Subject-wise practice</span></button><button class="exam-btn" onclick="chooseExam('NEET PG')">NEET PG<span>Subject-wise practice</span></button><button class="exam-btn" onclick="chooseExam('INI-CET')">INI-CET<span>Integrated clinical practice</span></button></div></section>
 <section id="studyHub" class="hide"><div class="card"><div class="row"><div><span class="tag" id="selectedExamTag">FMGE</span><h2 id="selectedExamTitle" style="margin-top:10px">Practice</h2></div><button class="secondary" id="changeExam">Change exam</button></div><p class="small">Choose a study mode. Actual recalled PYQs are kept separate from original PYT, clinical-case and image-based practice. Clinical cases use longer exam-style vignettes with decision-making clues. Every answer review includes the correct-answer rationale plus a separate explanation of why each distractor is wrong. High-yield buzzwords appear in BLACK text on a yellow highlight for quick revision.</p>
 <div class="exam-grid" style="margin:14px 0"><button class="exam-btn" onclick="showMode('PYQ')">📚 Year-wise PYQ Archive<span>Verified recalled questions only</span></button><button class="exam-btn" onclick="showMode('PYT')">⚡ PYT Practice Bank<span>Expanded high-yield practice</span></button></div>
