@@ -118,7 +118,19 @@ body.pearl-focus #examPicker,body.pearl-focus #studyHub,body.pearl-focus #practi
 .obg-special-answer{padding:14px;border-radius:14px;background:rgba(255,255,255,.88);border-left:5px solid #6554c0;line-height:1.65;color:#17213b}
 .obg-special-controls{display:flex;gap:8px;flex-wrap:wrap}.obg-special-controls button{flex:1;min-width:100px}
 .obg-special-toolbar{display:flex;gap:8px;flex-wrap:wrap}.obg-special-toolbar select,.obg-special-toolbar input{flex:1;min-width:140px;padding:10px;border-radius:12px;border:1px solid #cbd5e1;background:#fff;color:#17213b}
-</style></head><body><header><h1>MEDSHUBH</h1><p>NEET PG • FMGE • INI-CET | Practice &amp; Revision • V55</p></header><main>
+
+/* V56: MEDSHUBH app-style fixed bottom navigation */
+body{padding-bottom:88px}
+#bottomNav{position:fixed;left:0;right:0;bottom:0;z-index:9999;display:grid;grid-template-columns:repeat(4,1fr);gap:4px;padding:8px max(10px,env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) max(10px,env(safe-area-inset-left));background:rgba(10,18,32,.96);backdrop-filter:blur(16px);border-top:1px solid #34445e;box-shadow:0 -8px 28px #0005}
+#bottomNav button{background:transparent;color:#9eafc6;border-radius:13px;padding:8px 4px 7px;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;min-height:54px}
+#bottomNav button .nav-icon{font-size:20px;line-height:1.2}
+#bottomNav button.active{color:#fff;background:linear-gradient(135deg,#24466b,#20334d);box-shadow:inset 0 0 0 1px #52749c}
+#bottomNav button.active .nav-label{color:#a9d2ff}
+#videosHome{max-width:850px;margin:14px auto;padding:0 15px}
+.video-hero{padding:22px;border-radius:20px;background:linear-gradient(135deg,#18395a,#253052 60%,#243c42);border:1px solid #456080}
+.video-hero h2{font-size:23px;margin:8px 0}.video-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin-top:14px}.video-tile{padding:15px;border-radius:14px;background:#192a40;border:1px solid #354c69}.video-tile b{display:block;margin:6px 0}.video-tile span{font-size:12px;color:#aab8cc}
+@media(min-width:760px){#bottomNav{left:50%;right:auto;transform:translateX(-50%);width:min(560px,calc(100% - 30px));border:1px solid #34445e;border-bottom:0;border-radius:18px 18px 0 0}}
+</style></head><body><header><h1>MEDSHUBH</h1><p>NEET PG • FMGE • INI-CET | Practice &amp; Revision • V56</p></header><main>
 <section class="card" id="examPicker"><h2>Choose your exam</h2><p class="muted">Select an exam to start subject-wise practice.</p><div class="exam-grid"><button class="exam-btn" onclick="chooseExam('FMGE')">FMGE<span>Subject-wise practice</span></button><button class="exam-btn" onclick="chooseExam('NEET PG')">NEET PG<span>Subject-wise practice</span></button><button class="exam-btn" onclick="chooseExam('INI-CET')">INI-CET<span>Clinical reasoning practice</span></button></div><div class="exam-grid" style="margin:14px 0"><button class="exam-btn" onclick="openPearls()">💎 MEDSHUBH PEARLS — Concept-first Revision<span>Open a focused topic revision without selecting an exam first</span></button></div>
 </section>
 <section class="hide" id="studyHub"><div class="card"><div class="row"><div><span class="tag" id="selectedExamTag">FMGE</span><h2 id="selectedExamTitle" style="margin-top:10px">Practice</h2></div><button class="secondary" id="changeExam">Change exam</button></div><p class="small">Choose a study mode. Actual recalled PYQs are kept separate from original PYT, clinical-case and image-based practice. Clinical cases use longer exam-style vignettes with decision-making clues. Every answer review includes the correct-answer rationale plus a separate explanation of why each distractor is wrong. High-yield buzzwords appear in BLACK text on a yellow highlight for quick revision.</p>
@@ -247,6 +259,18 @@ body.pearl-focus #examPicker,body.pearl-focus #studyHub,body.pearl-focus #practi
 </section>
 
 <section class="hide" id="practice"><div class="card"><div class="row"><div><span class="tag" id="qtype">PRACTICE</span><div class="small" id="qmeta" style="margin-top:8px"></div></div><div id="timer">00:40</div></div><div class="progress"><div id="progressBar"></div></div><div class="question-image hide" id="questionImage"></div><div id="question"></div><div class="options" id="options"></div><div class="feedback hide" id="feedback"></div><div class="nav"><button class="secondary" id="previous">← Previous</button><button class="primary" disabled="" id="submit">Submit answer</button><button class="secondary" id="next">Next →</button></div><div class="row" style="margin-top:12px"><button class="secondary" id="markReview">☆ Mark for Review</button><label class="small">Timer: <select id="mode"><option value="timed">40 seconds</option><option value="untimed">Untimed</option></select></label><button class="danger" id="back">Exit session</button></div><hr/><b>Question palette</b><div class="palette" id="questionPalette"></div></div></section></main>
+<nav id="bottomNav" aria-label="Main navigation">
+<button class="active" data-tab="home" onclick="medNav('home')"><span class="nav-icon">⌂</span><span class="nav-label">Home</span></button>
+<button data-tab="qbank" onclick="medNav('qbank')"><span class="nav-icon">▤</span><span class="nav-label">Q Bank</span></button>
+<button data-tab="test" onclick="medNav('test')"><span class="nav-icon">▣</span><span class="nav-label">Test</span></button>
+<button data-tab="videos" onclick="medNav('videos')"><span class="nav-icon">▷</span><span class="nav-label">Videos</span></button>
+</nav>
+<section id="videosHome" class="hide">
+<div class="video-hero"><span class="tag">MEDSHUBH VIDEO LIBRARY</span><h2>🎥 Learn • Revise • Remember</h2><p class="muted">A dedicated home for subject-wise lectures, rapid revision and question discussions.</p><p class="small">The video area is now part of the app navigation. Verified, original MEDSHUBH video lessons will be added here in organised playlists.</p></div>
+<div class="video-grid"><div class="video-tile">📚<b>Subject-wise lectures</b><span>Organised by the 19 exam subjects</span></div><div class="video-tile">⚡<b>Rapid revision</b><span>High-yield concepts and last-minute review</span></div><div class="video-tile">🩺<b>Clinical discussions</b><span>Cases, diagnosis and next-best-step reasoning</span></div><div class="video-tile">🖼️<b>Image discussions</b><span>Radiology, pathology, ECG and clinical images</span></div></div>
+<div class="card"><h3>Coming up in Videos</h3><p class="muted">Playlists will appear here as each video series is completed. No empty or copied coaching-video links will be shown as MEDSHUBH lessons.</p></div>
+</section>
+
 <div id="imageZoom" onclick="if(event.target===this)closeImageZoom()"><div class="zoom-box"><button class="zoom-close" onclick="closeImageZoom()">✕ Close</button><div class="zoom-content" id="zoomContent"></div><p class="image-zoom-hint">Tap the image to enlarge. Source details stay hidden unless you open Image info.</p></div></div>
 <script>
 const bank={
@@ -594,7 +618,22 @@ function saveIncorrectQuestion(q,sub,type,userAnswer,examName){
   if(existing>=0)wrongNotebook[existing]=item;else wrongNotebook.unshift(item);
   if(wrongNotebook.length>500)wrongNotebook=wrongNotebook.slice(0,500);
   localStorage.setItem('medshubhWrongNotebook',JSON.stringify(wrongNotebook));
-  updateWrongNotebookBadge();
+  
+// V56: app-style bottom navigation. Existing learning tools and question banks remain intact.
+function medNav(tab){
+  document.querySelectorAll('#bottomNav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));
+  const ids=['examPicker','studyHub','pearlsLibrary','pearlsArea','practice','videosHome'];
+  ids.forEach(id=>{const el=document.getElementById(id);if(el)el.classList.add('hide');});
+  ['simSetup','simExam','simResult'].forEach(id=>{const el=document.getElementById(id);if(el)el.classList.add('hide');});
+  document.body.classList.remove('exam-focus');
+  if(tab==='home'){document.getElementById('examPicker').classList.remove('hide');if(exam)document.getElementById('studyHub').classList.remove('hide');}
+  if(tab==='qbank'){if(!exam){document.getElementById('examPicker').classList.remove('hide');}else{document.getElementById('studyHub').classList.remove('hide');showMode('PYT');}}
+  if(tab==='test'){if(!exam){document.getElementById('examPicker').classList.remove('hide');}else{document.getElementById('studyHub').classList.remove('hide');openSimulator();}}
+  if(tab==='videos'){document.getElementById('videosHome').classList.remove('hide');}
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+updateWrongNotebookBadge();
 }
 function updateWrongNotebookBadge(){
   const n=wrongNotebook.length;
@@ -604,7 +643,22 @@ function updateWrongNotebookBadge(){
 function openWrongNotebook(){window.obgNotebookFromSubject=false;hideStudyPanels();$('wrongNotebook').classList.remove('hide');renderWrongNotebook();}
 function closeWrongNotebook(){$('wrongNotebook').classList.add('hide');if(window.obgNotebookFromSubject){window.obgNotebookFromSubject=false;returnToOBGSubjectHome();}else{$('pytArea').classList.remove('hide');}}
 function renderWrongNotebook(){
-  updateWrongNotebookBadge();
+  
+// V56: app-style bottom navigation. Existing learning tools and question banks remain intact.
+function medNav(tab){
+  document.querySelectorAll('#bottomNav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));
+  const ids=['examPicker','studyHub','pearlsLibrary','pearlsArea','practice','videosHome'];
+  ids.forEach(id=>{const el=document.getElementById(id);if(el)el.classList.add('hide');});
+  ['simSetup','simExam','simResult'].forEach(id=>{const el=document.getElementById(id);if(el)el.classList.add('hide');});
+  document.body.classList.remove('exam-focus');
+  if(tab==='home'){document.getElementById('examPicker').classList.remove('hide');if(exam)document.getElementById('studyHub').classList.remove('hide');}
+  if(tab==='qbank'){if(!exam){document.getElementById('examPicker').classList.remove('hide');}else{document.getElementById('studyHub').classList.remove('hide');showMode('PYT');}}
+  if(tab==='test'){if(!exam){document.getElementById('examPicker').classList.remove('hide');}else{document.getElementById('studyHub').classList.remove('hide');openSimulator();}}
+  if(tab==='videos'){document.getElementById('videosHome').classList.remove('hide');}
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+updateWrongNotebookBadge();
   const box=$('wrongNotebookList');if(!box)return;
   if(!wrongNotebook.length){box.innerHTML='<p class="muted">No incorrect questions saved yet. Answer a practice or mock question incorrectly and it will appear here.</p>';return;}
   box.innerHTML=wrongNotebook.map((item,i)=>{
@@ -1052,6 +1106,21 @@ function flipFlashcard(){let c=flashDeck[flashIndex];if(!c)return;flashIsBack=!f
 function nextFlashcard(){if(!flashDeck.length)return;flashIndex=Math.min(flashIndex+1,flashDeck.length-1);renderFlashcard();}
 function prevFlashcard(){if(!flashDeck.length)return;flashIndex=Math.max(0,flashIndex-1);renderFlashcard();}
 function rateFlashcard(level){let c=flashDeck[flashIndex];if(!c)return;let mins={again:10,hard:1440,good:4320,easy:10080};flashProgress[c.id]={due:Date.now()+mins[level]*60000,last:Date.now(),level};localStorage.setItem('medshubhFlashProgress',JSON.stringify(flashProgress));$('flashLearned').textContent=Object.keys(flashProgress).length;let old=flashDeck.length;flashDeck.splice(flashIndex,1);if(flashIndex>=flashDeck.length)flashIndex=Math.max(0,flashDeck.length-1);$('flashCount').textContent=flashDeck.length;$('flashDue').textContent=allFlashcards().filter(x=>!flashProgress[x.id]||flashProgress[x.id].due<=Date.now()).length;renderFlashcard();}
+
+
+// V56: app-style bottom navigation. Existing learning tools and question banks remain intact.
+function medNav(tab){
+  document.querySelectorAll('#bottomNav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));
+  const ids=['examPicker','studyHub','pearlsLibrary','pearlsArea','practice','videosHome'];
+  ids.forEach(id=>{const el=document.getElementById(id);if(el)el.classList.add('hide');});
+  ['simSetup','simExam','simResult'].forEach(id=>{const el=document.getElementById(id);if(el)el.classList.add('hide');});
+  document.body.classList.remove('exam-focus');
+  if(tab==='home'){document.getElementById('examPicker').classList.remove('hide');if(exam)document.getElementById('studyHub').classList.remove('hide');}
+  if(tab==='qbank'){if(!exam){document.getElementById('examPicker').classList.remove('hide');}else{document.getElementById('studyHub').classList.remove('hide');showMode('PYT');}}
+  if(tab==='test'){if(!exam){document.getElementById('examPicker').classList.remove('hide');}else{document.getElementById('studyHub').classList.remove('hide');openSimulator();}}
+  if(tab==='videos'){document.getElementById('videosHome').classList.remove('hide');}
+  window.scrollTo({top:0,behavior:'smooth'});
+}
 
 updateWrongNotebookBadge();
 </script><script>
