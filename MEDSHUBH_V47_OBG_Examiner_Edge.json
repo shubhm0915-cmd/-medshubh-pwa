@@ -1,0 +1,1389 @@
+{
+  "subject": "Obstetrics & Gynaecology",
+  "version": "V47",
+  "bank_name": "OBG Examiner Edge",
+  "classification": "69 original MEDSHUBH examiner-style PYQ/PYT-based practice questions; none claimed as verbatim recalled PYQs",
+  "questions": [
+    {
+      "q": "A 7-week pregnant patient has unilateral pelvic pain, spotting, shoulder-tip pain and hypotension. FAST shows free intraperitoneal fluid; no intrauterine pregnancy is seen. What is the next step?",
+      "o": [
+        "Serial β-hCG in 48 hours",
+        "Urgent resuscitation and operative management for ruptured ectopic pregnancy",
+        "Methotrexate as outpatient",
+        "Repeat ultrasound after 2 weeks"
+      ],
+      "a": 1,
+      "e": "Haemodynamic instability, peritoneal/shoulder-tip pain and free fluid suggest ruptured ectopic pregnancy. Resuscitate, obtain urgent senior/operative review and do not delay definitive management for serial testing.",
+      "b": "Unstable + pain + free fluid = ruptured ectopic; resuscitate and operate.",
+      "topic": "Early pregnancy & ectopic",
+      "optionExplanations": [
+        "Serial β-hCG is for stable pregnancy of unknown location.",
+        "Correct: suspected rupture with shock requires emergency management.",
+        "Methotrexate is for selected stable, unruptured cases with follow-up.",
+        "Waiting is unsafe in suspected rupture."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A stable patient has a pregnancy of unknown location, low β-hCG and no adnexal mass. Which approach is most appropriate?",
+      "o": [
+        "Immediate methotrexate for every case",
+        "Serial quantitative β-hCG and repeat transvaginal ultrasound",
+        "Diagnostic hysterectomy",
+        "Ignore symptoms if β-hCG is low"
+      ],
+      "a": 1,
+      "e": "A stable pregnancy of unknown location requires structured follow-up with serial β-hCG and repeat TVUS. A single hCG value or empty uterus alone does not diagnose ectopic pregnancy.",
+      "b": "Stable PUL → serial β-hCG + repeat TVUS; do not treat a number alone.",
+      "topic": "Early pregnancy & ectopic",
+      "optionExplanations": [
+        "Not every PUL is ectopic; empiric methotrexate can harm a viable IUP.",
+        "Correct: follow trends and ultrasound while giving ectopic precautions.",
+        "Hysterectomy has no role.",
+        "Low hCG does not exclude ectopic pregnancy."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman with recurrent miscarriage has a septate uterus on 3D ultrasound. Which uterine anomaly is classically associated with the highest miscarriage risk?",
+      "o": [
+        "Arcuate uterus",
+        "Septate uterus",
+        "Unicornuate uterus only",
+        "Subseptate cervix"
+      ],
+      "a": 1,
+      "e": "A septate uterus is associated with adverse reproductive outcomes, especially miscarriage. Hysteroscopic septum incision may be considered in selected patients after counselling; evidence and indications should be individualized.",
+      "b": "Septate uterus → recurrent miscarriage association.",
+      "topic": "Early pregnancy & ectopic",
+      "optionExplanations": [
+        "Arcuate uterus is usually a mild variant with lower reproductive impact.",
+        "Correct: septum may impair implantation/placentation and is linked to miscarriage.",
+        "Unicornuate uterus is associated with preterm birth/malpresentation but is not the classic highest miscarriage association.",
+        "This is not the standard anomaly classification."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 32-week pregnant patient has a generalized tonic-clonic seizure and BP 170/112 mmHg. What is the first-line drug to prevent recurrent eclamptic seizures?",
+      "o": [
+        "Phenytoin",
+        "Magnesium sulfate",
+        "Diazepam as routine maintenance",
+        "Valproate"
+      ],
+      "a": 1,
+      "e": "Magnesium sulfate is first-line for treatment and prevention of recurrent eclamptic seizures. Stabilize airway/breathing/circulation, control severe BP and plan delivery after maternal stabilization.",
+      "b": "Eclampsia → magnesium sulfate; stabilize mother, then deliver.",
+      "topic": "Hypertensive disorders",
+      "optionExplanations": [
+        "Phenytoin is not preferred over magnesium sulfate.",
+        "Correct: magnesium sulfate is first-line anticonvulsant in eclampsia.",
+        "Benzodiazepines may be used for refractory seizures, not routine preferred prophylaxis.",
+        "Valproate is not the standard treatment."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman at 29 weeks has pre-eclampsia with severe features. Which finding is a severe feature even in the absence of proteinuria?",
+      "o": [
+        "Mild ankle oedema",
+        "Platelet count 82,000/µL",
+        "Trace urinary protein alone",
+        "Physiological nausea"
+      ],
+      "a": 1,
+      "e": "Thrombocytopenia below 100,000/µL is a maternal end-organ severe feature. Other severe features include severe-range BP, renal impairment, liver dysfunction/persistent RUQ pain, pulmonary oedema and neurological symptoms.",
+      "b": "Pre-eclampsia severe feature: platelets <100,000/µL.",
+      "topic": "Hypertensive disorders",
+      "optionExplanations": [
+        "Oedema is common and is not diagnostic/severe criterion by itself.",
+        "Correct: platelets <100,000/µL indicates severe feature.",
+        "Proteinuria amount alone does not define severe features.",
+        "Nausea alone is nonspecific."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A patient with severe pre-eclampsia is receiving magnesium sulfate. She develops absent deep tendon reflexes and respiratory rate 8/min. What is the antidote?",
+      "o": [
+        "Vitamin K",
+        "Calcium gluconate",
+        "Atropine",
+        "Naloxone"
+      ],
+      "a": 1,
+      "e": "Loss of reflexes and respiratory depression suggest magnesium toxicity. Stop magnesium, support ventilation and give IV calcium gluconate according to protocol. Monitor urine output and serum magnesium when indicated.",
+      "b": "Magnesium toxicity → absent reflexes/respiratory depression; calcium gluconate antidote.",
+      "topic": "Hypertensive disorders",
+      "optionExplanations": [
+        "Vitamin K reverses warfarin effect.",
+        "Correct: calcium gluconate antagonizes magnesium toxicity.",
+        "Atropine treats selected bradyarrhythmias.",
+        "Naloxone reverses opioid toxicity."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman in active labour has a persistent fetal bradycardia and thick meconium with a high, unengaged presenting part. What is the priority?",
+      "o": [
+        "Continue routine observation for 4 hours",
+        "Urgent assessment and expedited birth if fetal compromise persists",
+        "Start oxytocin augmentation",
+        "Perform fundal pressure"
+      ],
+      "a": 1,
+      "e": "Persistent fetal bradycardia is an intrapartum emergency. Stop uterotonics if running, summon help, assess reversible causes and expedite birth when compromise persists. Mode depends on cervical dilatation, station and urgency.",
+      "b": "Persistent fetal bradycardia → urgent intrauterine resuscitation and expedited birth.",
+      "topic": "Labour & partograph",
+      "optionExplanations": [
+        "Delay risks hypoxic injury.",
+        "Correct: urgent assessment and timely birth are required.",
+        "Oxytocin may worsen tachysystole and fetal compromise.",
+        "Fundal pressure is not recommended."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A labouring woman has a transverse lie with a live singleton fetus at term. What is the usual mode of delivery?",
+      "o": [
+        "Spontaneous vaginal delivery",
+        "Caesarean delivery",
+        "Vacuum extraction",
+        "Forceps rotation"
+      ],
+      "a": 1,
+      "e": "Persistent transverse lie at term is generally delivered by caesarean section. Vaginal delivery is not possible for a singleton transverse lie unless special circumstances such as a second twin after delivery of the first.",
+      "b": "Singleton transverse lie at term → caesarean section.",
+      "topic": "Labour & partograph",
+      "optionExplanations": [
+        "Vaginal delivery is obstructed in persistent transverse lie.",
+        "Correct: caesarean is the usual route for singleton transverse lie.",
+        "Vacuum requires a suitable cephalic presenting part and engaged head.",
+        "Forceps cannot correct a transverse lie."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A primigravida at term has a fully dilated cervix, vertex at +2 station, position known, ruptured membranes and reassuring fetal status. Which instrument-assisted birth prerequisites are met?",
+      "o": [
+        "Only full dilatation is sufficient",
+        "Full dilatation, ruptured membranes, engaged head, known position and no disproportion",
+        "Unengaged head and unknown position are acceptable",
+        "Instrument can be applied before excluding CPD"
+      ],
+      "a": 1,
+      "e": "Safe operative vaginal birth requires full dilatation, ruptured membranes, engaged head, known position, adequate pelvis/no suspected CPD, appropriate analgesia, consent and immediate capability for caesarean if needed.",
+      "b": "Instrumental delivery prerequisites: fully dilated + engaged + known position + no CPD.",
+      "topic": "Labour & partograph",
+      "optionExplanations": [
+        "Full dilatation alone is insufficient.",
+        "Correct: these are core prerequisites, with consent/analgesia and backup.",
+        "Unknown position/unengaged head makes application unsafe.",
+        "CPD must be excluded."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "After vaginal delivery, a woman has heavy bleeding and a boggy enlarged uterus. What is the first-line action?",
+      "o": [
+        "Bimanual uterine massage and uterotonic treatment while activating PPH response",
+        "Immediate hysterectomy in all cases",
+        "Wait for haemoglobin result",
+        "Give anticoagulation"
+      ],
+      "a": 0,
+      "e": "Uterine atony is the commonest cause of PPH. Call for help, uterine massage, uterotonics (usually oxytocin first-line), IV access/resuscitation, quantify blood loss and follow the PPH bundle.",
+      "b": "PPH + boggy uterus = atony; massage + oxytocin + resuscitation.",
+      "topic": "Postpartum haemorrhage",
+      "optionExplanations": [
+        "Correct: immediate uterine massage and uterotonic therapy are core first actions.",
+        "Hysterectomy is reserved for uncontrolled life-threatening bleeding after other measures.",
+        "Do not wait for labs before treating haemorrhage.",
+        "Anticoagulation worsens bleeding."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman has persistent PPH despite uterine massage and oxytocin. The uterus remains atonic. Which intervention is a common next pharmacological option if no contraindication?",
+      "o": [
+        "Methylergometrine",
+        "Ritodrine",
+        "Magnesium sulfate",
+        "Terbutaline"
+      ],
+      "a": 0,
+      "e": "Additional uterotonics include ergometrine/methylergometrine (avoid in hypertension), carboprost (avoid in asthma) and misoprostol, according to local protocol. Concurrently assess the four Ts and escalate.",
+      "b": "Atonic PPH: additional uterotonics; ergometrine contraindicated in hypertension.",
+      "topic": "Postpartum haemorrhage",
+      "optionExplanations": [
+        "Correct: methylergometrine is an option if hypertension is absent.",
+        "Ritodrine is a tocolytic, not a PPH uterotonic.",
+        "Magnesium relaxes uterus and can worsen atony.",
+        "Terbutaline is a tocolytic."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman with painless third-trimester bleeding has a placenta covering the internal cervical os on transvaginal ultrasound. Which diagnosis?",
+      "o": [
+        "Placental abruption",
+        "Placenta previa",
+        "Vasa previa",
+        "Uterine rupture"
+      ],
+      "a": 1,
+      "e": "Placenta covering the internal os is placenta previa. Painless bleeding is classic, although presentations vary. Avoid digital vaginal examination until placenta previa is excluded.",
+      "b": "Painless bleeding + placenta over os = placenta previa.",
+      "topic": "Placenta & cord",
+      "optionExplanations": [
+        "Abruption classically causes painful bleeding/tender uterus, though bleeding may be concealed.",
+        "Correct: placental tissue covers the internal os.",
+        "Vasa previa involves fetal vessels over/near os.",
+        "Uterine rupture typically presents with pain, fetal compromise and maternal instability."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman with previous caesarean deliveries has placenta previa and ultrasound features of placenta accreta spectrum. Which is the safest planned approach in a specialist centre for suspected placenta percreta?",
+      "o": [
+        "Attempt manual placental separation",
+        "Planned caesarean hysterectomy with placenta left in situ",
+        "Induce labour at home",
+        "Routine curettage"
+      ],
+      "a": 1,
+      "e": "For significant placenta accreta spectrum, especially percreta, planned delivery in a multidisciplinary centre is essential. A common standard approach is caesarean hysterectomy with placenta left in situ; avoid forced placental removal because of catastrophic haemorrhage risk.",
+      "b": "Placenta accreta spectrum → do not forcibly detach placenta; specialist planned delivery.",
+      "topic": "Placenta & cord",
+      "optionExplanations": [
+        "Manual removal can cause massive haemorrhage.",
+        "Correct: planned caesarean hysterectomy with placenta in situ is common standard management for severe PAS.",
+        "Unplanned labour/delivery is unsafe.",
+        "Curettage is dangerous."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A fetus has estimated weight below the 3rd centile with abnormal umbilical artery Doppler. Which term best describes this?",
+      "o": [
+        "Constitutionally small fetus by definition",
+        "Fetal growth restriction",
+        "Macrosomia",
+        "Large for gestational age"
+      ],
+      "a": 1,
+      "e": "Estimated fetal weight below the 3rd centile is strongly concerning for fetal growth restriction, especially with abnormal Doppler. Distinguish pathological FGR from a constitutionally small fetus using growth trajectory, Doppler and clinical context.",
+      "b": "EFW <3rd centile and abnormal Doppler → FGR.",
+      "topic": "Fetal growth & surveillance",
+      "optionExplanations": [
+        "Small for gestational age is a size descriptor and may be constitutionally small; abnormal Doppler supports FGR.",
+        "Correct: placental insufficiency and abnormal Doppler indicate pathological growth restriction.",
+        "Macrosomia is excessive fetal size.",
+        "LGA is >90th centile."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "In a growth-restricted fetus, which Doppler abnormality is generally the most concerning marker of advanced placental insufficiency?",
+      "o": [
+        "Increased middle cerebral artery PI",
+        "Absent or reversed end-diastolic flow in umbilical artery",
+        "Normal umbilical artery PI",
+        "Increased cerebroplacental ratio"
+      ],
+      "a": 1,
+      "e": "Absent or reversed end-diastolic flow in the umbilical artery reflects severe placental vascular resistance and is associated with increased perinatal risk. Management depends on gestational age, ductus venosus/cardiotocography and maternal status.",
+      "b": "FGR + absent/reversed UA end-diastolic flow = severe placental insufficiency.",
+      "topic": "Fetal growth & surveillance",
+      "optionExplanations": [
+        "MCA PI often falls with brain-sparing, rather than rises.",
+        "Correct: absent/reversed end-diastolic flow is a major adverse Doppler finding.",
+        "Normal UA Doppler is reassuring relative to abnormal flow.",
+        "A low CPR, not increased CPR, may indicate redistribution."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A fetus has severe oligohydramnios and bilateral renal agenesis. Which mechanism explains the low amniotic fluid?",
+      "o": [
+        "Reduced fetal urine production",
+        "Increased fetal swallowing",
+        "Maternal polyuria",
+        "Excess fetal lung fluid"
+      ],
+      "a": 0,
+      "e": "After the mid-trimester, fetal urine is a major source of amniotic fluid. Bilateral renal agenesis causes absent fetal urine and severe oligohydramnios/anhydramnios, with pulmonary hypoplasia risk.",
+      "b": "Bilateral renal agenesis → absent fetal urine → oligohydramnios.",
+      "topic": "Amniotic fluid",
+      "optionExplanations": [
+        "Correct: fetal urine is a major contributor to amniotic fluid later in pregnancy.",
+        "Increased swallowing may reduce fluid but is not the mechanism in renal agenesis.",
+        "Maternal urine output does not determine amniotic fluid.",
+        "Fetal lung fluid is not the principal mechanism."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A monochorionic diamniotic twin pregnancy develops oligohydramnios in one sac and polyhydramnios in the other, with a stuck donor twin. Diagnosis?",
+      "o": [
+        "Twin anaemia-polycythaemia sequence only",
+        "Twin-to-twin transfusion syndrome",
+        "Selective fetal growth restriction only",
+        "Vanishing twin"
+      ],
+      "a": 1,
+      "e": "The donor twin becomes hypovolaemic with oligohydramnios and the recipient hypervolaemic with polyhydramnios. This classic sequence in monochorionic twins suggests TTTS; stage and manage in a fetal medicine centre.",
+      "b": "MCDA twins + donor oligo/stuck twin + recipient poly = TTTS.",
+      "topic": "Multiple pregnancy",
+      "optionExplanations": [
+        "TAPS is characterised by anaemia/polycythaemia without the classic oligo-poly sequence.",
+        "Correct: this is the classic TTTS presentation.",
+        "sFGR can coexist but does not explain the oligo-poly sequence.",
+        "Vanishing twin is early loss of one embryo."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "Which sign on first-trimester ultrasound most strongly supports dichorionic diamniotic twins?",
+      "o": [
+        "T-sign",
+        "Lambda/twin-peak sign",
+        "Single placental mass alone",
+        "No intertwin membrane"
+      ],
+      "a": 1,
+      "e": "The lambda or twin-peak sign at the placental insertion of the intertwin membrane supports dichorionicity. The T-sign supports monochorionic diamniotic twins.",
+      "b": "Lambda sign = DCDA; T-sign = MCDA.",
+      "topic": "Multiple pregnancy",
+      "optionExplanations": [
+        "T-sign is associated with MCDA.",
+        "Correct: lambda/twin-peak sign indicates chorionic tissue between membranes.",
+        "A single placental mass can occur in fused dichorionic placentas.",
+        "No membrane suggests MCMA, not DCDA."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 19-year-old with primary amenorrhoea has normal breast development, absent uterus, normal female external genitalia and 46,XY karyotype. Most likely diagnosis?",
+      "o": [
+        "Müllerian agenesis",
+        "Complete androgen insensitivity syndrome",
+        "Turner syndrome",
+        "Imperforate hymen"
+      ],
+      "a": 1,
+      "e": "Complete androgen insensitivity is due to androgen receptor dysfunction in a 46,XY individual. Testes produce AMH, causing absent uterus; aromatisation supports breast development. Pubic/axillary hair is often sparse.",
+      "b": "46,XY + breasts + absent uterus + sparse hair = complete androgen insensitivity.",
+      "topic": "Gynaecological endocrinology",
+      "optionExplanations": [
+        "Müllerian agenesis is usually 46,XX with normal ovaries and normal androgen-dependent hair.",
+        "Correct: AMH causes absent uterus; androgen resistance causes female phenotype.",
+        "Turner is 45,X and usually has streak gonads/poor secondary sexual development.",
+        "Imperforate hymen causes outflow obstruction with uterus present."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 16-year-old has primary amenorrhoea, short stature, webbed neck, shield chest and streak ovaries. Which karyotype is most likely?",
+      "o": [
+        "46,XX",
+        "45,X",
+        "47,XXY",
+        "46,XY"
+      ],
+      "a": 1,
+      "e": "Turner syndrome is classically associated with 45,X, gonadal dysgenesis, short stature, webbed neck and primary amenorrhoea. Evaluate cardiac and renal anomalies and provide hormone replacement when appropriate.",
+      "b": "Short stature + webbed neck + streak ovaries = Turner (45,X).",
+      "topic": "Gynaecological endocrinology",
+      "optionExplanations": [
+        "46,XX is typical female karyotype.",
+        "Correct: monosomy X is classic Turner syndrome.",
+        "47,XXY is Klinefelter syndrome.",
+        "46,XY does not fit the classic Turner phenotype."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman with PCOS has oligomenorrhoea and obesity. Which long-term endometrial risk is increased by chronic anovulation?",
+      "o": [
+        "Endometrial hyperplasia and carcinoma",
+        "Cervical squamous carcinoma",
+        "Ovarian germ-cell tumour",
+        "Vulvar melanoma"
+      ],
+      "a": 0,
+      "e": "Chronic anovulation causes prolonged unopposed oestrogen exposure without regular progesterone withdrawal, increasing endometrial hyperplasia and cancer risk. Endometrial protection with cyclic progestin or combined hormonal contraception is considered when appropriate.",
+      "b": "PCOS + chronic anovulation → unopposed oestrogen → endometrial hyperplasia risk.",
+      "topic": "Gynaecological endocrinology",
+      "optionExplanations": [
+        "Correct: unopposed oestrogen stimulates endometrium.",
+        "Cervical cancer is primarily linked to persistent high-risk HPV.",
+        "Germ-cell tumours are not the classic PCOS-associated risk.",
+        "No specific link."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A patient with galactorrhoea and amenorrhoea has markedly raised prolactin. Which hypothalamic hormone normally inhibits prolactin secretion?",
+      "o": [
+        "GnRH",
+        "Dopamine",
+        "TRH",
+        "Oxytocin"
+      ],
+      "a": 1,
+      "e": "Dopamine from the hypothalamus tonically inhibits prolactin release from anterior pituitary lactotrophs. Exclude pregnancy, medications and hypothyroidism; evaluate for prolactinoma when indicated.",
+      "b": "Prolactin is under tonic dopamine inhibition.",
+      "topic": "Gynaecological endocrinology",
+      "optionExplanations": [
+        "GnRH stimulates LH/FSH.",
+        "Correct: dopamine inhibits prolactin.",
+        "TRH can stimulate prolactin.",
+        "Oxytocin mediates milk ejection, not tonic prolactin inhibition."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 52-year-old woman presents with postmenopausal bleeding. What is the essential principle of evaluation?",
+      "o": [
+        "Reassure if bleeding is scanty",
+        "Exclude endometrial malignancy with appropriate endometrial assessment",
+        "Start combined oral contraceptive without investigation",
+        "Treat empirically with antibiotics"
+      ],
+      "a": 1,
+      "e": "Postmenopausal bleeding requires evaluation to exclude endometrial cancer. Transvaginal ultrasound endometrial thickness and/or endometrial sampling is selected according to risk, imaging and persistence/recurrence.",
+      "b": "Postmenopausal bleeding = rule out endometrial carcinoma.",
+      "topic": "Abnormal uterine bleeding",
+      "optionExplanations": [
+        "Even scant bleeding needs assessment.",
+        "Correct: endometrial assessment is essential.",
+        "Hormonal treatment without evaluation may delay diagnosis.",
+        "Antibiotics do not evaluate the major concern."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 28-year-old with heavy menstrual bleeding has normal pelvic ultrasound, no structural lesion and wishes to avoid pregnancy. Which treatment is highly effective for reducing menstrual blood loss?",
+      "o": [
+        "Levonorgestrel-releasing intrauterine system",
+        "Copper IUCD",
+        "Tamoxifen",
+        "Clomiphene"
+      ],
+      "a": 0,
+      "e": "The LNG-IUS is highly effective for heavy menstrual bleeding in suitable patients and provides contraception. Check contraindications and evaluate anaemia and underlying causes.",
+      "b": "Heavy menstrual bleeding + contraception desired → LNG-IUS is highly effective.",
+      "topic": "Abnormal uterine bleeding",
+      "optionExplanations": [
+        "Correct: local progestin causes endometrial suppression and reduces blood loss.",
+        "Copper IUCD may increase menstrual bleeding.",
+        "Tamoxifen can cause endometrial pathology.",
+        "Clomiphene induces ovulation and is not HMB treatment."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 30-year-old has severe dysmenorrhoea, deep dyspareunia and infertility. Laparoscopy shows powder-burn lesions. Diagnosis?",
+      "o": [
+        "Adenomyosis",
+        "Endometriosis",
+        "Endometrial polyp",
+        "Pelvic inflammatory disease"
+      ],
+      "a": 1,
+      "e": "Endometriosis is ectopic endometrial-like tissue, commonly causing dysmenorrhoea, deep dyspareunia and infertility. Powder-burn lesions are a classic laparoscopic appearance, although lesions vary.",
+      "b": "Dysmenorrhoea + deep dyspareunia + infertility + powder-burn lesions = endometriosis.",
+      "topic": "Endometriosis",
+      "optionExplanations": [
+        "Adenomyosis causes boggy enlarged uterus and dysmenorrhoea.",
+        "Correct: classic symptoms and laparoscopic appearance.",
+        "Polyps commonly cause intermenstrual/heavy bleeding.",
+        "PID causes infection-related pelvic pain/cervical motion tenderness."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman with adenomyosis classically has which examination finding?",
+      "o": [
+        "Small hard irregular uterus",
+        "Uniformly enlarged, boggy and tender uterus",
+        "Fixed barrel-shaped cervix",
+        "Unilateral ovarian mass with ascites"
+      ],
+      "a": 1,
+      "e": "Adenomyosis is endometrial glands/stroma within myometrium and classically causes a uniformly enlarged, boggy, tender uterus with dysmenorrhoea and heavy menstrual bleeding.",
+      "b": "Adenomyosis → uniformly enlarged boggy tender uterus.",
+      "topic": "Endometriosis",
+      "optionExplanations": [
+        "Small hard irregular uterus suggests fibroids may be irregular.",
+        "Correct: classic adenomyosis finding.",
+        "Barrel-shaped cervix suggests cervical pathology.",
+        "Ovarian mass with ascites raises concern for ovarian malignancy."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 35-year-old with submucosal fibroid has infertility and heavy menstrual bleeding. Which procedure is most appropriate for a cavity-distorting submucosal fibroid in a fertility-desiring patient?",
+      "o": [
+        "Hysteroscopic myomectomy",
+        "Hysterectomy",
+        "Bilateral oophorectomy",
+        "Endometrial ablation"
+      ],
+      "a": 0,
+      "e": "Hysteroscopic myomectomy is commonly used for accessible submucosal fibroids that distort the cavity in patients desiring fertility. Choice depends on size, type and depth.",
+      "b": "Submucosal cavity-distorting fibroid + fertility desire → hysteroscopic myomectomy.",
+      "topic": "Fibroid uterus",
+      "optionExplanations": [
+        "Correct: hysteroscopic resection restores cavity contour.",
+        "Hysterectomy eliminates fertility.",
+        "Oophorectomy is not indicated.",
+        "Endometrial ablation is unsuitable when future fertility is desired."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 34-year-old has persistent high-risk HPV positivity with abnormal cytology. Which test directly visualizes the transformation zone and guides biopsy?",
+      "o": [
+        "Colposcopy",
+        "Hysterosalpingography",
+        "Laparoscopy",
+        "Cystoscopy"
+      ],
+      "a": 0,
+      "e": "Colposcopy magnifies the cervix and transformation zone after application of acetic acid/Lugol iodine; directed biopsy establishes histology when indicated. Management follows age- and risk-based screening guidelines.",
+      "b": "Persistent hrHPV + abnormal cytology → colposcopy/biopsy as indicated.",
+      "topic": "Cervical cancer screening",
+      "optionExplanations": [
+        "Correct: colposcopy evaluates cervical epithelium and guides biopsy.",
+        "HSG evaluates uterine cavity/tubal patency.",
+        "Laparoscopy evaluates peritoneal/pelvic structures.",
+        "Cystoscopy evaluates bladder."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A cervical biopsy shows invasive squamous cell carcinoma. Which infection is most strongly associated with cervical cancer?",
+      "o": [
+        "Low-risk HPV 6 and 11",
+        "High-risk HPV 16 and 18",
+        "EBV",
+        "HSV-2 as the established necessary cause"
+      ],
+      "a": 1,
+      "e": "Persistent infection with high-risk HPV is the central causal factor in most cervical cancers; HPV16 and 18 are major oncogenic types. HPV 6/11 are low-risk types associated with genital warts.",
+      "b": "Cervical carcinoma → persistent high-risk HPV, especially 16/18.",
+      "topic": "Cervical cancer",
+      "optionExplanations": [
+        "HPV 6/11 are low-risk wart-associated types.",
+        "Correct: HPV 16/18 are major oncogenic types.",
+        "EBV is linked to several other malignancies.",
+        "HSV-2 is not the established necessary cause."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 22-year-old has a unilateral ovarian mass. Histology shows Schiller-Duval bodies and serum AFP is raised. Diagnosis?",
+      "o": [
+        "Dysgerminoma",
+        "Yolk sac tumour",
+        "Granulosa cell tumour",
+        "Mature cystic teratoma"
+      ],
+      "a": 1,
+      "e": "Yolk sac (endodermal sinus) tumour occurs in younger patients, may produce AFP and shows Schiller-Duval bodies. It is a malignant germ-cell tumour.",
+      "b": "Schiller-Duval bodies + AFP = yolk sac tumour.",
+      "topic": "Ovarian tumours",
+      "optionExplanations": [
+        "Dysgerminoma may raise LDH and has fried-egg cells.",
+        "Correct: classic morphology and AFP marker.",
+        "Granulosa tumour may produce inhibin/oestrogen and Call-Exner bodies.",
+        "Mature teratoma contains mature tissues from germ layers."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 58-year-old has an ovarian mass, ascites and pleural effusion. CA-125 is elevated. Which syndrome is classically described?",
+      "o": [
+        "Meigs syndrome",
+        "Pseudo-Meigs syndrome only",
+        "Sheehan syndrome",
+        "Asherman syndrome"
+      ],
+      "a": 0,
+      "e": "Meigs syndrome is the triad of benign ovarian fibroma, ascites and pleural effusion, resolving after tumour removal. CA-125 may be elevated and can mimic ovarian malignancy.",
+      "b": "Ovarian fibroma + ascites + pleural effusion = Meigs syndrome.",
+      "topic": "Ovarian tumours",
+      "optionExplanations": [
+        "Correct: classic triad.",
+        "Pseudo-Meigs is similar with other pelvic/abdominal tumours, not ovarian fibroma.",
+        "Sheehan is postpartum pituitary necrosis.",
+        "Asherman is intrauterine adhesions."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A breastfeeding woman at 3 weeks postpartum asks for combined oral contraceptive pills. What is the best advice?",
+      "o": [
+        "Start combined pill today routinely",
+        "Avoid combined hormonal contraception in the early postpartum period; discuss suitable progestin-only/nonhormonal options",
+        "No contraception is needed during breastfeeding",
+        "Use emergency contraception daily"
+      ],
+      "a": 1,
+      "e": "Combined hormonal contraception is generally avoided in the early postpartum period because of increased VTE risk and potential effects on lactation; eligibility timing depends on breastfeeding and thrombotic risk. Progestin-only and nonhormonal options may be appropriate.",
+      "b": "Early postpartum + breastfeeding → avoid combined estrogen-containing method; choose eligible alternative.",
+      "topic": "Contraception",
+      "optionExplanations": [
+        "Estrogen-containing methods are not routinely started at 3 weeks postpartum.",
+        "Correct: discuss progestin-only or nonhormonal contraception per eligibility.",
+        "Breastfeeding does not guarantee contraception unless strict LAM criteria are met.",
+        "Emergency contraception is not a daily method."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman presents 4 days after unprotected intercourse and wants the most effective emergency contraception. Which option is generally most effective within 5 days?",
+      "o": [
+        "Copper IUCD",
+        "Combined oral contraceptive taken for 21 days",
+        "Depot medroxyprogesterone injection as emergency contraception",
+        "Condom at the next intercourse"
+      ],
+      "a": 0,
+      "e": "A copper IUCD inserted within 5 days is the most effective emergency contraception and provides ongoing contraception. Ulipristal or levonorgestrel pills are alternatives when appropriate, with timing and drug interactions considered.",
+      "b": "Emergency contraception within 5 days → copper IUCD most effective.",
+      "topic": "Contraception",
+      "optionExplanations": [
+        "Correct: copper IUCD has the lowest failure rate and ongoing benefit.",
+        "Combined OCP is not the standard emergency regimen.",
+        "DMPA is not an emergency contraceptive.",
+        "A future condom does not prevent pregnancy from prior intercourse."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A couple has infertility. Semen analysis is abnormal on the first sample. What is the next appropriate step before diagnosing persistent male-factor infertility?",
+      "o": [
+        "Repeat semen analysis after an appropriate interval with proper collection conditions",
+        "Proceed directly to IVF in every case",
+        "Diagnose azoospermia from low motility",
+        "Ignore male partner evaluation"
+      ],
+      "a": 0,
+      "e": "Semen parameters vary; repeat analysis is needed when the initial result is abnormal, using standardized abstinence/collection and laboratory handling. Further evaluation is guided by repeat results and history.",
+      "b": "Abnormal semen analysis → repeat standardized sample before definitive classification.",
+      "topic": "Infertility",
+      "optionExplanations": [
+        "Correct: biological and technical variability require confirmation.",
+        "IVF is not automatic; investigate cause and couple factors.",
+        "Low motility is asthenozoospermia, not azoospermia.",
+        "Male evaluation is essential."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman with regular 28-day cycles is being evaluated for ovulation. Approximately when should mid-luteal serum progesterone be measured?",
+      "o": [
+        "Day 3",
+        "Day 7",
+        "About 7 days before expected next menses",
+        "Only on day 1 of menstruation"
+      ],
+      "a": 2,
+      "e": "Progesterone should be measured in the mid-luteal phase, approximately 7 days before the expected next period (day 21 only in a 28-day cycle). A fixed day-21 test is inappropriate for longer/shorter cycles.",
+      "b": "Mid-luteal progesterone = ~7 days before next menses, not always day 21.",
+      "topic": "Infertility",
+      "optionExplanations": [
+        "Day 3 evaluates baseline ovarian hormones in selected workups.",
+        "Day 7 is usually follicular phase.",
+        "Correct: time it relative to expected menstruation.",
+        "Day 1 is early follicular phase."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 51-year-old has vasomotor symptoms and an intact uterus. If systemic estrogen therapy is prescribed, what must generally be added for endometrial protection?",
+      "o": [
+        "Progestogen",
+        "Testosterone alone",
+        "Aromatase inhibitor",
+        "Tamoxifen"
+      ],
+      "a": 0,
+      "e": "A woman with an intact uterus receiving systemic estrogen generally needs a progestogen to reduce endometrial hyperplasia/cancer risk. Estrogen-only systemic therapy is generally reserved for women without a uterus, subject to individual assessment.",
+      "b": "Intact uterus + systemic estrogen → add progestogen.",
+      "topic": "Menopause",
+      "optionExplanations": [
+        "Correct: progestogen protects endometrium from unopposed estrogen.",
+        "Testosterone is not endometrial protection.",
+        "Aromatase inhibitors are not used for this purpose.",
+        "Tamoxifen can increase endometrial pathology risk."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman leaks urine when coughing and sneezing. Urinalysis is normal and postvoid residual is low. Most likely type?",
+      "o": [
+        "Stress urinary incontinence",
+        "Urge urinary incontinence",
+        "Overflow incontinence",
+        "Continuous fistula leakage"
+      ],
+      "a": 0,
+      "e": "Leakage with raised intra-abdominal pressure (cough, sneeze, exercise) indicates stress urinary incontinence, commonly due to urethral hypermobility or sphincter deficiency.",
+      "b": "Cough/sneeze-associated leakage = stress incontinence.",
+      "topic": "Urogynaecology",
+      "optionExplanations": [
+        "Correct: pressure-related leakage.",
+        "Urge is preceded by urgency.",
+        "Overflow is associated with retention/high residual.",
+        "Fistula causes continuous leakage."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman has continuous leakage of urine per vagina after prolonged obstructed labour. Which diagnosis is most likely?",
+      "o": [
+        "Vesicovaginal fistula",
+        "Stress incontinence",
+        "Overactive bladder",
+        "Ureteric stone"
+      ],
+      "a": 0,
+      "e": "Continuous urinary leakage after prolonged obstructed labour suggests vesicovaginal fistula due to pressure necrosis. Confirm with dye test/cystoscopy and assess ureteric involvement.",
+      "b": "Obstructed labour + continuous vaginal urine leak = VVF.",
+      "topic": "Urogynaecology",
+      "optionExplanations": [
+        "Correct: classic obstetric fistula presentation.",
+        "Stress leakage is intermittent with effort.",
+        "Overactive bladder causes urgency/frequency, not continuous leakage.",
+        "Ureteric stone causes colic/haematuria."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman has thin homogeneous vaginal discharge, fishy odour and clue cells on saline microscopy. Diagnosis?",
+      "o": [
+        "Vulvovaginal candidiasis",
+        "Bacterial vaginosis",
+        "Trichomoniasis",
+        "Gonococcal cervicitis"
+      ],
+      "a": 1,
+      "e": "Bacterial vaginosis is a vaginal dysbiosis with thin homogeneous discharge, fishy odour, raised pH and clue cells. Treat symptomatic patients and selected special populations according to guidance.",
+      "b": "Clue cells + fishy odour + pH >4.5 = bacterial vaginosis.",
+      "topic": "Gynaecological infections",
+      "optionExplanations": [
+        "Candida causes itch, thick curdy discharge and normal pH usually.",
+        "Correct: clue cells are the classic microscopy clue.",
+        "Trichomonas shows motile organisms and often frothy discharge.",
+        "Gonorrhoea causes cervicitis/purulent discharge, not clue cells."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A pregnant woman has confirmed syphilis. Which treatment is the only proven therapy to treat fetal infection and prevent congenital syphilis?",
+      "o": [
+        "Doxycycline",
+        "Benzathine penicillin G",
+        "Azithromycin",
+        "Cefixime"
+      ],
+      "a": 1,
+      "e": "Penicillin G is the only proven effective treatment for fetal infection and prevention of congenital syphilis. Pregnant patients with penicillin allergy should undergo desensitization and receive penicillin.",
+      "b": "Syphilis in pregnancy → penicillin G; desensitize if allergic.",
+      "topic": "Gynaecological infections",
+      "optionExplanations": [
+        "Doxycycline is contraindicated in pregnancy and does not reliably treat fetal infection.",
+        "Correct: penicillin is essential for fetal treatment/prevention.",
+        "Azithromycin resistance and inadequate fetal efficacy make it unsuitable.",
+        "Cefixime is not treatment for syphilis."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A lactating woman has fever, breast erythema and wedge-shaped tenderness. What is the most likely diagnosis?",
+      "o": [
+        "Lactational mastitis",
+        "Fibroadenoma",
+        "Duct ectasia",
+        "Breast carcinoma until proven otherwise"
+      ],
+      "a": 0,
+      "e": "Lactational mastitis presents with localized pain, erythema and systemic symptoms. Continue effective milk removal/breastfeeding when possible, provide analgesia and antibiotics when bacterial infection is suspected; assess for abscess if not improving.",
+      "b": "Lactation + fever + wedge erythema/tenderness = mastitis.",
+      "topic": "Breast & lactation",
+      "optionExplanations": [
+        "Correct: typical presentation.",
+        "Fibroadenoma is a discrete benign lump without fever.",
+        "Duct ectasia causes nipple discharge/retraction, usually not acute febrile illness.",
+        "Cancer is considered for persistent atypical findings but is not the most likely acute presentation."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A pregnant woman develops sudden dyspnoea, hypotension, hypoxia and DIC during labour. Which rare obstetric emergency is classically associated?",
+      "o": [
+        "Amniotic fluid embolism",
+        "Hyperemesis gravidarum",
+        "Molar pregnancy",
+        "Shoulder dystocia"
+      ],
+      "a": 0,
+      "e": "Amniotic fluid embolism is a rare clinical syndrome with sudden cardiorespiratory collapse and coagulopathy/DIC during labour or shortly after delivery. Management is immediate supportive resuscitation and multidisciplinary critical care; no diagnostic test is definitive.",
+      "b": "Labour + sudden hypoxia/shock + DIC = amniotic fluid embolism.",
+      "topic": "Obstetric emergencies",
+      "optionExplanations": [
+        "Correct: classic triad-like presentation.",
+        "Hyperemesis occurs early pregnancy and does not cause sudden DIC.",
+        "Molar pregnancy has abnormal trophoblastic proliferation.",
+        "Shoulder dystocia is mechanical delivery emergency."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman with previous caesarean develops sudden abdominal pain, fetal bradycardia, loss of fetal station and maternal shock during labour. Diagnosis?",
+      "o": [
+        "Uterine rupture",
+        "Placenta previa",
+        "Cord prolapse only",
+        "Eclampsia"
+      ],
+      "a": 0,
+      "e": "Uterine rupture is a life-threatening complication, especially with a uterine scar. Sudden pain, fetal heart rate abnormality, loss of station and maternal haemorrhage/shock require immediate laparotomy and delivery.",
+      "b": "Previous CS + sudden pain + fetal bradycardia + loss of station = uterine rupture.",
+      "topic": "Obstetric emergencies",
+      "optionExplanations": [
+        "Correct: classic warning signs.",
+        "Previa causes painless bleeding and does not cause loss of station in this pattern.",
+        "Cord prolapse causes fetal bradycardia but not maternal shock/abdominal signs.",
+        "Eclampsia is seizure in hypertensive disorder."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "After delivery of the fetal head, it retracts against the perineum and shoulders fail to deliver. What is the first-line manoeuvre?",
+      "o": [
+        "McRoberts manoeuvre with suprapubic pressure",
+        "Fundal pressure",
+        "Zavanelli manoeuvre first",
+        "Immediate symphysiotomy in all cases"
+      ],
+      "a": 0,
+      "e": "Shoulder dystocia is an obstetric emergency. Call for help, use McRoberts positioning and suprapubic pressure; avoid fundal pressure. Escalate to internal manoeuvres or other rescue techniques if needed.",
+      "b": "Turtle sign → shoulder dystocia; McRoberts + suprapubic pressure first.",
+      "topic": "Obstetric emergencies",
+      "optionExplanations": [
+        "Correct: first-line manoeuvre combination.",
+        "Fundal pressure worsens impaction and is contraindicated.",
+        "Zavanelli is a rare last-resort manoeuvre.",
+        "Symphysiotomy is not routine first-line."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "An unsensitized RhD-negative pregnant woman has a potentially sensitizing event at 28 weeks. What prevents alloimmunization?",
+      "o": [
+        "Anti-D immunoglobulin",
+        "MMR vaccine",
+        "Magnesium sulfate",
+        "Oxytocin"
+      ],
+      "a": 0,
+      "e": "Anti-D immunoglobulin prevents maternal sensitization to RhD-positive fetal red cells. Give according to gestational age, event and local protocol; assess fetomaternal haemorrhage when indicated.",
+      "b": "Unsensitized RhD-negative + sensitizing event → anti-D prophylaxis.",
+      "topic": "Rh isoimmunisation",
+      "optionExplanations": [
+        "Correct: passive anti-D prevents active maternal antibody formation.",
+        "MMR is a live vaccine and unrelated.",
+        "Magnesium treats/prevents eclamptic seizures.",
+        "Oxytocin stimulates uterine contraction."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A RhD-negative mother is already sensitized with significant anti-D antibodies. What is the role of routine anti-D prophylaxis?",
+      "o": [
+        "It reverses established sensitization",
+        "It is not effective once sensitization has occurred; monitor fetus for anaemia",
+        "Give double dose to remove antibodies",
+        "It treats fetal anaemia directly"
+      ],
+      "a": 1,
+      "e": "Anti-D is prophylaxis, not treatment of established maternal alloimmunization. Once sensitized, assess antibody levels and fetal anaemia risk (e.g., MCA peak systolic velocity) and manage in specialist care.",
+      "b": "Anti-D prevents sensitization; it does not reverse established alloimmunization.",
+      "topic": "Rh isoimmunisation",
+      "optionExplanations": [
+        "It cannot remove established maternal immune memory/antibodies.",
+        "Correct: monitor fetal anaemia and plan specialist management.",
+        "Double dosing does not reverse sensitization.",
+        "Fetal anaemia may require intrauterine transfusion, not maternal anti-D."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 17-year-old has severe cyclic pelvic pain, primary amenorrhoea and a bluish bulging hymenal membrane. Diagnosis?",
+      "o": [
+        "Imperforate hymen with haematocolpos",
+        "Endometriosis",
+        "PCOS",
+        "Cervical cancer"
+      ],
+      "a": 0,
+      "e": "Imperforate hymen causes outflow obstruction with primary amenorrhoea, cyclic pain and haematocolpos; a bulging bluish hymen may be seen. Confirm anatomy and treat with hymenotomy in appropriate setting.",
+      "b": "Primary amenorrhoea + cyclic pain + bulging bluish hymen = imperforate hymen.",
+      "topic": "Menstrual disorders",
+      "optionExplanations": [
+        "Correct: obstructed menstrual outflow leads to haematocolpos.",
+        "Endometriosis does not cause this obstructive hymenal finding.",
+        "PCOS causes oligo/anovulation, not cyclic obstructive pain.",
+        "Cervical cancer is not plausible in this presentation."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman develops amenorrhoea after postpartum curettage for retained products. Hysteroscopy shows intrauterine adhesions. Diagnosis?",
+      "o": [
+        "Asherman syndrome",
+        "Sheehan syndrome",
+        "Turner syndrome",
+        "Adenomyosis"
+      ],
+      "a": 0,
+      "e": "Asherman syndrome is intrauterine adhesions, often following uterine instrumentation/infection, causing hypomenorrhoea/amenorrhoea and infertility. Hysteroscopy is diagnostic and therapeutic.",
+      "b": "Post-curettage amenorrhoea + intrauterine adhesions = Asherman syndrome.",
+      "topic": "Menstrual disorders",
+      "optionExplanations": [
+        "Correct: intrauterine synechiae.",
+        "Sheehan is postpartum pituitary infarction with lactation failure and hypopituitarism.",
+        "Turner is gonadal dysgenesis.",
+        "Adenomyosis causes heavy painful menses."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A fetus has a lemon-shaped skull, banana-shaped cerebellum and myelomeningocele. Which association is most likely?",
+      "o": [
+        "Chiari II malformation",
+        "Dandy-Walker malformation",
+        "Holoprosencephaly",
+        "Acrania"
+      ],
+      "a": 0,
+      "e": "Open spina bifida/myelomeningocele is associated with Chiari II malformation and characteristic lemon and banana signs on prenatal ultrasound. Offer detailed fetal assessment and counselling.",
+      "b": "Lemon sign + banana sign + myelomeningocele = Chiari II.",
+      "topic": "Fetal medicine",
+      "optionExplanations": [
+        "Correct: classic association with open neural tube defect.",
+        "Dandy-Walker involves posterior fossa/vermis abnormalities.",
+        "Holoprosencephaly is forebrain cleavage defect.",
+        "Acrania is absent calvarium."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A fetus has an omphalocele containing bowel and liver, covered by a membrane, with umbilical cord insertion at the apex. Which statement is correct?",
+      "o": [
+        "It is usually not associated with chromosomal anomalies",
+        "Omphalocele is associated with chromosomal and other structural anomalies",
+        "It is identical to gastroschisis",
+        "It is always left-sided and uncovered"
+      ],
+      "a": 1,
+      "e": "Omphalocele is a midline defect at the umbilical ring, covered by a sac and often contains liver. It has significant association with aneuploidy and other structural anomalies. Gastroschisis is typically paraumbilical and uncovered.",
+      "b": "Omphalocele = midline + membrane-covered + associated anomalies/aneuploidy.",
+      "topic": "Fetal medicine",
+      "optionExplanations": [
+        "Incorrect: omphalocele has important chromosomal associations.",
+        "Correct: detailed anomaly/genetic evaluation is indicated.",
+        "Gastroschisis is usually uncovered and paraumbilical.",
+        "Omphalocele is midline and membrane-covered."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 62-year-old has postmenopausal bleeding and endometrial biopsy confirms endometrioid carcinoma. Which risk factor is classically associated?",
+      "o": [
+        "Long-term unopposed estrogen exposure",
+        "Multiparity as the strongest risk factor",
+        "Early menopause",
+        "Combined oral contraceptive use"
+      ],
+      "a": 0,
+      "e": "Endometrioid endometrial carcinoma is associated with unopposed estrogen exposure: obesity, chronic anovulation/PCOS, estrogen-only therapy and nulliparity among risk factors.",
+      "b": "Endometrioid endometrial cancer → unopposed estrogen.",
+      "topic": "Gynaecological oncology",
+      "optionExplanations": [
+        "Correct: prolonged estrogen without progestogen increases risk.",
+        "Multiparity is generally protective.",
+        "Early menopause reduces lifetime estrogen exposure.",
+        "Combined OCP use is generally protective."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A young woman has a rapidly growing ovarian mass and markedly elevated LDH. Histology shows large cells with clear cytoplasm and lymphocytes. Diagnosis?",
+      "o": [
+        "Dysgerminoma",
+        "Yolk sac tumour",
+        "Mucinous cystadenoma",
+        "Brenner tumour"
+      ],
+      "a": 0,
+      "e": "Dysgerminoma is the most common malignant ovarian germ-cell tumour, often in young women. It shows large cells with clear cytoplasm and lymphocyte-rich septa; LDH may be elevated.",
+      "b": "Young patient + ovarian mass + raised LDH + clear cells = dysgerminoma.",
+      "topic": "Gynaecological oncology",
+      "optionExplanations": [
+        "Correct: characteristic morphology and marker association.",
+        "Yolk sac tumour has Schiller-Duval bodies and AFP.",
+        "Mucinous cystadenoma is epithelial and usually benign.",
+        "Brenner tumour has transitional-type cells and coffee-bean nuclei."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman at 40 weeks has rupture of membranes, fever, uterine tenderness and fetal tachycardia. What is the most likely diagnosis?",
+      "o": [
+        "Intra-amniotic infection (chorioamnionitis)",
+        "Placenta accreta",
+        "Vasa previa",
+        "Uterine inversion"
+      ],
+      "a": 0,
+      "e": "Maternal fever with uterine tenderness and fetal tachycardia after membrane rupture suggests intra-amniotic infection. Start broad-spectrum antibiotics, antipyretics/supportive care and proceed with delivery; infection alone is not an indication for caesarean.",
+      "b": "ROM + maternal fever + uterine tenderness + fetal tachycardia = chorioamnionitis.",
+      "topic": "Labour & partograph",
+      "optionExplanations": [
+        "Correct: clinical features support intra-amniotic infection.",
+        "Accreta is abnormal placental adherence.",
+        "Vasa previa causes fetal bleeding after membrane rupture.",
+        "Inversion occurs after delivery with haemorrhage/shock."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman on day 5 postpartum has fever, lower abdominal pain and foul-smelling lochia. Most likely diagnosis?",
+      "o": [
+        "Postpartum endometritis",
+        "Mastitis",
+        "DVT",
+        "Postpartum thyroiditis"
+      ],
+      "a": 0,
+      "e": "Postpartum endometritis presents with fever, uterine tenderness/lower abdominal pain and foul lochia. Treat with broad-spectrum IV antibiotics according to local protocol and assess for retained products or sepsis.",
+      "b": "Postpartum fever + uterine tenderness + foul lochia = endometritis.",
+      "topic": "Postpartum care",
+      "optionExplanations": [
+        "Correct: classic postpartum uterine infection.",
+        "Mastitis causes breast pain/erythema.",
+        "DVT causes limb swelling/pain.",
+        "Thyroiditis does not cause foul lochia or uterine tenderness."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A sexually active woman has lower abdominal pain, cervical motion tenderness and adnexal tenderness. What is the recommended principle?",
+      "o": [
+        "Delay antibiotics until laparoscopy confirms PID",
+        "Treat presumptively for PID when clinical threshold is met",
+        "Treat partner only, not patient",
+        "Use antifungal monotherapy"
+      ],
+      "a": 1,
+      "e": "PID is a clinical diagnosis. In a sexually active patient with pelvic/lower abdominal pain and cervical motion, uterine or adnexal tenderness without a better explanation, initiate empiric broad-spectrum treatment promptly. Test for STI and manage partners.",
+      "b": "Pelvic pain + cervical motion/uterine/adnexal tenderness → low threshold for empiric PID treatment.",
+      "topic": "Gynaecological infections",
+      "optionExplanations": [
+        "Delaying treatment increases risk of infertility and ectopic pregnancy.",
+        "Correct: treat promptly when minimum clinical criteria are met.",
+        "Both patient and partners require appropriate management.",
+        "PID is usually polymicrobial bacterial infection, not fungal."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman with primary amenorrhoea has normal secondary sexual characteristics, uterus present and elevated FSH. Which category is most likely?",
+      "o": [
+        "Hypogonadotropic hypogonadism",
+        "Hypergonadotropic hypogonadism due to gonadal failure",
+        "Outflow tract obstruction only",
+        "Pregnancy"
+      ],
+      "a": 1,
+      "e": "Elevated FSH with low estrogen suggests primary ovarian insufficiency/gonadal dysgenesis (hypergonadotropic hypogonadism). Interpret with repeat testing, age, karyotype and clinical context.",
+      "b": "High FSH + low estrogen = hypergonadotropic hypogonadism / ovarian failure.",
+      "topic": "Gynaecological endocrinology",
+      "optionExplanations": [
+        "Hypogonadotropic states have low/normal FSH.",
+        "Correct: high FSH reflects reduced ovarian negative feedback.",
+        "Outflow obstruction generally has normal ovarian hormones and secondary characteristics.",
+        "Pregnancy does not cause this pattern."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "Which medication is contraindicated for treatment of postpartum haemorrhage in a woman with severe asthma?",
+      "o": [
+        "Carboprost",
+        "Oxytocin",
+        "Misoprostol",
+        "Tranexamic acid"
+      ],
+      "a": 0,
+      "e": "Carboprost (15-methyl PGF2α) can cause bronchospasm and is avoided in asthma. Select uterotonics according to contraindications; oxytocin is usually first-line.",
+      "b": "Asthma + PPH → avoid carboprost.",
+      "topic": "Obstetric pharmacology",
+      "optionExplanations": [
+        "Correct: prostaglandin F2α analogue may cause bronchospasm.",
+        "Oxytocin is first-line uterotonic in most settings.",
+        "Misoprostol is a prostaglandin E1 analogue and is an option.",
+        "Tranexamic acid is an antifibrinolytic adjunct, not a uterotonic."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A woman at 31 weeks is at risk of imminent preterm birth. Which intervention accelerates fetal lung maturation?",
+      "o": [
+        "Antenatal corticosteroids",
+        "Methotrexate",
+        "Warfarin",
+        "Ergometrine"
+      ],
+      "a": 0,
+      "e": "Antenatal corticosteroids (betamethasone or dexamethasone) reduce neonatal respiratory distress and other complications when preterm birth is likely within the recommended gestational window. Follow current local guideline criteria.",
+      "b": "Threatened preterm birth in eligible gestation → antenatal corticosteroids.",
+      "topic": "Obstetric pharmacology",
+      "optionExplanations": [
+        "Correct: corticosteroids accelerate surfactant production and fetal maturation.",
+        "Methotrexate is an antimetabolite used in selected ectopic pregnancy/oncology.",
+        "Warfarin is an anticoagulant and teratogenic.",
+        "Ergometrine is a uterotonic used postpartum."
+      ],
+      "src": "Original MEDSHUBH high-yield PYQ/PYT-based practice question; not a verified verbatim recalled PYQ."
+    },
+    {
+      "q": "A 34-week pregnant woman presents with painless, bright-red vaginal bleeding. She is haemodynamically stable and the fetus is alive. What is the safest next step before deciding the mode of delivery?",
+      "o": [
+        "Digital vaginal examination to assess dilatation",
+        "Ultrasound to locate the placenta; avoid digital vaginal examination until placenta praevia is excluded",
+        "Immediate induction with oxytocin",
+        "Amniotomy to assess liquor"
+      ],
+      "a": 1,
+      "e": "Painless antepartum haemorrhage suggests placenta praevia. Ultrasound localization is required; digital vaginal examination can precipitate catastrophic bleeding and is avoided until praevia is excluded. Stabilize and assess mother and fetus.",
+      "b": "APH + painless bright-red bleed = placenta praevia until excluded; NO digital PV examination.",
+      "topic": "Antepartum haemorrhage",
+      "optionExplanations": [
+        "Digital PV examination may provoke severe haemorrhage.",
+        "Correct: locate placenta by ultrasound and avoid digital PV exam until praevia excluded.",
+        "Induction is unsafe before placental location and maternal-fetal assessment.",
+        "Amniotomy is not a diagnostic step and may cause harm."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    },
+    {
+      "q": "A 36-week pregnant patient has sudden painful vaginal bleeding, a tense tender uterus and fetal bradycardia. What is the most likely diagnosis?",
+      "o": [
+        "Placenta praevia",
+        "Abruptio placentae",
+        "Vasa praevia",
+        "Cervical ectropion"
+      ],
+      "a": 1,
+      "e": "Painful bleeding with uterine tenderness/hypertonicity and fetal compromise is classic for placental abruption. Bleeding may be concealed, so visible blood loss can underestimate severity.",
+      "b": "Painful APH + tender/woody uterus = abruption; concealed haemorrhage possible.",
+      "topic": "Antepartum haemorrhage",
+      "optionExplanations": [
+        "Praevia classically causes painless bleeding.",
+        "Correct: abruption causes painful bleeding, uterine tenderness and fetal compromise.",
+        "Vasa praevia causes fetal blood loss after membrane rupture, often with fetal collapse.",
+        "Ectropion causes contact bleeding, not a tender hypertonic uterus."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    },
+    {
+      "q": "Immediately after vaginal birth, a woman has brisk bleeding and a boggy uterus. After calling for help and uterine massage, which uterotonic is generally first-line?",
+      "o": [
+        "Oxytocin",
+        "Carboprost in every patient",
+        "Ergometrine in severe hypertension",
+        "No uterotonic until ultrasound"
+      ],
+      "a": 0,
+      "e": "Uterine atony is the commonest cause of primary PPH. Initiate the PPH response, uterine massage, oxytocin and resuscitation concurrently; add further agents according to contraindications and protocol.",
+      "b": "4 Ts: Tone is commonest; atonic PPH → massage + oxytocin first-line.",
+      "topic": "Postpartum haemorrhage",
+      "optionExplanations": [
+        "Correct: oxytocin is first-line uterotonic for atonic PPH.",
+        "Carboprost is an additional option but avoid in asthma.",
+        "Ergometrine is contraindicated in hypertension/pre-eclampsia.",
+        "Do not delay treatment for imaging."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    },
+    {
+      "q": "A woman with PPH remains haemorrhagic despite uterine massage and oxytocin. She has severe bronchial asthma. Which uterotonic should be avoided?",
+      "o": [
+        "Carboprost",
+        "Misoprostol",
+        "Oxytocin",
+        "None; carboprost is preferred in asthma"
+      ],
+      "a": 0,
+      "e": "Carboprost (15-methyl PGF2α) can cause bronchospasm and is avoided in asthma. Select an alternative uterotonic based on BP, contraindications and local PPH protocol; give tranexamic acid early when indicated.",
+      "b": "PPH + asthma → avoid carboprost; hypertension → avoid ergometrine.",
+      "topic": "Postpartum haemorrhage",
+      "optionExplanations": [
+        "Correct: carboprost can precipitate bronchospasm.",
+        "Misoprostol may be used as an alternative uterotonic.",
+        "Oxytocin is generally first-line.",
+        "Carboprost is not preferred in asthma."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    },
+    {
+      "q": "A woman develops PPH 20 minutes after birth. Which statement about tranexamic acid is most accurate?",
+      "o": [
+        "Give only after 24 hours",
+        "Give as early as possible and within 3 hours of birth when PPH is diagnosed, alongside standard care",
+        "It replaces uterotonics and resuscitation",
+        "Use only if platelet count is low"
+      ],
+      "a": 1,
+      "e": "TXA is an antifibrinolytic adjunct for diagnosed PPH and should be administered as early as possible, within 3 hours of birth, in addition to standard care. It does not replace uterotonics, source control or resuscitation.",
+      "b": "TXA for PPH: early, within 3 hours; adjunct—not a uterotonic.",
+      "topic": "Postpartum haemorrhage",
+      "optionExplanations": [
+        "Late administration beyond 3 hours is not recommended for PPH benefit.",
+        "Correct: administer early within 3 hours alongside standard PPH care.",
+        "TXA does not replace uterotonics or resuscitation.",
+        "It is not restricted to thrombocytopenia."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    },
+    {
+      "q": "A 30-week pregnant woman reports a gush of fluid. Sterile speculum examination shows pooling; she is afebrile, not contracting and fetal status is reassuring. What is the best initial approach?",
+      "o": [
+        "Digital vaginal examination repeatedly",
+        "Assess gestation, infection and fetal status; manage PPROM expectantly when appropriate with latency antibiotics and antenatal corticosteroids per protocol",
+        "Immediate caesarean for every PPROM",
+        "Discharge without counselling or follow-up"
+      ],
+      "a": 1,
+      "e": "PPROM at 30 weeks with no infection, labour or fetal compromise is generally managed expectantly in hospital/appropriate setting: confirm diagnosis, assess maternal-fetal status, give latency antibiotics and corticosteroids when eligible; magnesium for neuroprotection if imminent early preterm birth per guideline.",
+      "b": "PPROM stable + preterm → expectant care, antibiotics + steroids; avoid repeated digital PV exams.",
+      "topic": "PPROM",
+      "optionExplanations": [
+        "Repeated digital examinations increase infection risk.",
+        "Correct: expectant management with infection surveillance and gestation-appropriate interventions.",
+        "PPROM alone is not an automatic indication for caesarean.",
+        "Close monitoring, counselling and clear delivery triggers are essential."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    },
+    {
+      "q": "A woman with PPROM at 31 weeks develops fever, uterine tenderness and fetal tachycardia. What is the priority?",
+      "o": [
+        "Continue expectant management until 37 weeks",
+        "Treat suspected intra-amniotic infection with broad-spectrum antibiotics and proceed to delivery",
+        "Give tocolysis to suppress contractions",
+        "Perform repeated digital examinations"
+      ],
+      "a": 1,
+      "e": "Maternal fever, uterine tenderness and fetal tachycardia suggest intra-amniotic infection. Start broad-spectrum antibiotics, stabilize and proceed to delivery; infection alone does not mandate caesarean—route depends on obstetric indications.",
+      "b": "PPROM + chorioamnionitis → antibiotics + delivery; not prolonged expectant care.",
+      "topic": "PPROM / Intra-amniotic infection",
+      "optionExplanations": [
+        "Expectant care is inappropriate with suspected infection.",
+        "Correct: antibiotics and delivery after stabilization.",
+        "Tocolysis is not appropriate in suspected intra-amniotic infection.",
+        "Repeated digital examinations increase ascending infection risk."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    },
+    {
+      "q": "During vaginal birth, the fetal head delivers but retracts tightly against the perineum (“turtle sign”). What is the first manoeuvre?",
+      "o": [
+        "McRoberts manoeuvre with suprapubic pressure",
+        "Fundal pressure",
+        "Forceful traction on the fetal head",
+        "Immediate Zavanelli manoeuvre as first step"
+      ],
+      "a": 0,
+      "e": "Turtle sign indicates shoulder dystocia. Call for help, note time, perform McRoberts with suprapubic pressure; avoid fundal pressure and excessive traction. Proceed through an organized manoeuvre sequence if unresolved.",
+      "b": "Turtle sign → shoulder dystocia; McRoberts + suprapubic pressure; NEVER fundal pressure.",
+      "topic": "Shoulder dystocia",
+      "optionExplanations": [
+        "Correct: first-line manoeuvre is McRoberts, often with suprapubic pressure.",
+        "Fundal pressure worsens impaction and risks injury.",
+        "Excessive traction risks brachial plexus injury.",
+        "Zavanelli is a last-resort manoeuvre, not first-line."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    },
+    {
+      "q": "In shoulder dystocia, which action is specifically contraindicated?",
+      "o": [
+        "Calling for help",
+        "McRoberts manoeuvre",
+        "Suprapubic pressure",
+        "Fundal pressure"
+      ],
+      "a": 3,
+      "e": "Fundal pressure can worsen shoulder impaction and increase maternal/fetal injury. Use McRoberts, suprapubic pressure and appropriate internal manoeuvres; document timings and manoeuvres.",
+      "b": "Shoulder dystocia: no fundal pressure; no excessive downward traction.",
+      "topic": "Shoulder dystocia",
+      "optionExplanations": [
+        "Calling for help is essential.",
+        "McRoberts is a first-line manoeuvre.",
+        "Suprapubic pressure helps disimpact the anterior shoulder.",
+        "Correct: fundal pressure is contraindicated."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    },
+    {
+      "q": "A fetus at 32 weeks has estimated fetal weight at the 4th centile, abdominal circumference at the 2nd centile and umbilical artery Doppler with absent end-diastolic flow. Which interpretation is best?",
+      "o": [
+        "Constitutionally small fetus with reassuring Doppler",
+        "Fetal growth restriction with abnormal placental resistance requiring specialist surveillance and delivery planning",
+        "Macrosomia",
+        "Normal finding; no follow-up needed"
+      ],
+      "a": 1,
+      "e": "EFW/AC below the 10th centile raises concern for FGR; absent end-diastolic flow in the umbilical artery is a high-risk Doppler finding reflecting increased placental resistance. Requires specialist surveillance and gestation-specific delivery planning.",
+      "b": "FGR + absent UA end-diastolic flow = high-risk placental insufficiency.",
+      "topic": "Fetal growth restriction",
+      "optionExplanations": [
+        "Abnormal Doppler makes simple constitutional smallness less likely.",
+        "Correct: FGR with absent end-diastolic flow needs close specialist management.",
+        "Macrosomia is excessive fetal size.",
+        "This is not a normal Doppler finding."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    },
+    {
+      "q": "In monochorionic diamniotic twins, one sac has oligohydramnios with a stuck twin and the other has polyhydramnios. What is the most likely diagnosis?",
+      "o": [
+        "Twin-to-twin transfusion syndrome",
+        "Twin reversed arterial perfusion sequence",
+        "Selective fetal growth restriction only",
+        "Vanishing twin"
+      ],
+      "a": 0,
+      "e": "The donor twin develops oligohydramnios and the recipient polyhydramnios in TTTS due to unbalanced placental vascular anastomoses in monochorionic twins. Assess by ultrasound and refer to fetal medicine; fetoscopic laser is standard treatment for eligible severe disease.",
+      "b": "Monochorionic twins + donor oligo / recipient poly = TTTS.",
+      "topic": "Multiple pregnancy",
+      "optionExplanations": [
+        "TRAP has an acardiac twin perfused by the pump twin.",
+        "Correct: classic TTTS fluid discordance.",
+        "sFGR is discordant growth and Doppler abnormality, not the defining oligo-poly sequence.",
+        "Vanishing twin is early demise/resorption of one twin."
+      ],
+      "src": "Original MEDSHUBH examiner-style PYQ/PYT-based practice; not a verified verbatim/recalled PYQ."
+    }
+  ],
+  "provenance_note": "All questions in this companion bank are original educational practice items. They are not represented as verified verbatim past examination questions. Guideline-sensitive management should be checked against current local protocols."
+}
