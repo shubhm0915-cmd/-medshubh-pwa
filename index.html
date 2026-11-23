@@ -102,16 +102,38 @@ body.pearl-focus #examPicker,body.pearl-focus #studyHub,body.pearl-focus #practi
 @media(max-width:560px){body.pearl-focus main{padding:8px 9px 24px}.pearl-library-head h2{font-size:22px}.pearl-library-head>button{width:100%}}
 
 .quick-revision-input{width:100%;padding:14px;border-radius:12px;border:1px solid #49617f;background:#0f1b2c;color:#fff;font-size:16px;margin:8px 0 12px}.qr-result{background:#192a40;border:1px solid #3b5270;border-radius:12px;padding:14px;margin:12px 0;line-height:1.55}.qr-result h3{margin:0 0 8px;color:#ffe19a}.qr-buzz{display:inline-block;background:#ffe36e;color:#111;padding:6px 9px;border-radius:7px;font-weight:900;margin:5px 4px 2px 0}.qr-note{font-size:12px;color:#aab8cc;line-height:1.5}
-</style></head><body><header><h1>MEDSHUBH</h1><p>NEET PG • FMGE • INI-CET | Practice &amp; Revision • V50 • INTEGRATED TOPIC MASTERY</p></header><main>
+
+/* V51 guided integrated study layout */
+.qr-roadmap{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:9px;margin:12px 0}
+.qr-step{background:#10243a;border:1px solid #3b5878;border-radius:10px;padding:11px}
+.qr-step b{display:block;color:#ffe19a;margin-bottom:5px;font-size:13px}
+.qr-step span{font-size:12px;color:#c8d5e5;line-height:1.45;display:block}
+.qr-image-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin:12px 0}
+.qr-figure{background:#101f31;border:1px solid #405976;border-radius:12px;padding:10px;margin:0;overflow:hidden}
+.qr-figure img{width:100%;height:220px;object-fit:contain;background:#07111d;border-radius:8px;display:block}
+.qr-figure figcaption{font-size:12px;line-height:1.45;color:#d4deeb;margin-top:8px}
+.qr-figure a{color:#9fc7ff}
+.qr-flow{background:#142a3e;border-left:4px solid #55c5a1;border-radius:10px;padding:12px;margin:10px 0;line-height:1.55}
+.qr-flow h4{margin:0 0 7px;color:#8ee2c4}
+.qr-callout{background:#3b3016;border:1px solid #9d7d2d;color:#fff1c1;padding:12px;border-radius:10px;margin:10px 0;line-height:1.55}
+.qr-table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
+.qr-table th,.qr-table td{border:1px solid #405976;padding:8px;text-align:left;vertical-align:top}
+.qr-table th{background:#203a55;color:#ffe19a}
+.qr-section-nav{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}
+.qr-section-nav a{background:#233d58;color:#dcecff;text-decoration:none;padding:6px 9px;border-radius:20px;font-size:11px}
+.qr-result{scroll-margin-top:12px}
+@media(max-width:560px){.qr-figure img{height:190px}.qr-table{font-size:11px}.qr-table th,.qr-table td{padding:6px}}
+
+</style></head><body><header><h1>MEDSHUBH</h1><p>NEET PG • FMGE • INI-CET | Practice &amp; Revision • V51 • GUIDED INTEGRATED TOPIC MASTERY</p></header><main>
 <section class="card" id="examPicker"><h2>Choose your exam</h2><p class="muted">Select an exam to start subject-wise practice.</p><div class="exam-grid"><button class="exam-btn" onclick="chooseExam('FMGE')">FMGE<span>Subject-wise practice</span></button><button class="exam-btn" onclick="chooseExam('NEET PG')">NEET PG<span>Subject-wise practice</span></button><button class="exam-btn" onclick="chooseExam('INI-CET')">INI-CET<span>Clinical reasoning practice</span></button></div><div class="exam-grid" style="margin:14px 0"><button class="exam-btn" onclick="openPearls()">💎 MEDSHUBH PEARLS — Concept-first Revision<span>Open a focused topic revision without selecting an exam first</span></button></div>
-<div class="exam-grid" style="margin:12px 0"><button class="exam-btn" onclick="openQuickRevision()">⚡ QUICK REVISION AI<span>One topic • integrated subjects • complete concept • related questions</span></button></div>
+<div class="exam-grid" style="margin:12px 0"><button class="exam-btn" onclick="openQuickRevision()">⚡ QUICK REVISION AI<span>Step-by-step understanding • real clinical images • integrated subjects • related questions</span></button></div>
 </section>
 <section class="card hide" id="quickRevisionArea"><div class="row"><h2>⚡ Quick Revision AI</h2><button class="secondary" onclick="closeQuickRevision()">Back</button></div>
-<p class="muted">Type a topic to open an integrated, subject-wise concept explanation: core mechanism, relevant anatomy/physiology, pathology, pharmacology, clinical approach, investigations, treatment, complications and exam traps — all in one place.</p>
+<p class="muted">Type a topic to follow a structured learning path: foundations → mechanism → clinical presentation → diagnosis → management → complications → exam recall. Relevant real medical images and source credits are shown where available.</p>
 <input id="qrTopic" class="quick-revision-input" placeholder="e.g. Pheochromocytoma, TOF, Nephrotic syndrome" autocomplete="off" onkeydown="if(event.key==='Enter')generateQuickRevision()">
 <div class="row"><select id="qrExam"><option>NEET PG + FMGE</option><option>NEET PG</option><option>FMGE</option><option>INI-CET</option></select><button class="primary" onclick="generateQuickRevision()">Generate revision</button></div>
 <div id="qrOutput" aria-live="polite"></div>
-<p class="qr-note">Integrated explanations are shown only for topics included in the curated local concept library. Related question-bank matches are displayed separately. This build has no live generative-AI backend; uncovered topics will be labelled clearly rather than receiving invented explanations.</p></section>
+<p class="qr-note">This is a curated, locally bundled learning library—not a live generative-AI chatbot. Images are real medical/radiology/pathology examples linked from their source repositories; internet access may be needed to load them. Related question-bank matches remain separate from the topic explanation.</p></section>
 <section class="hide" id="studyHub"><div class="card"><div class="row"><div><span class="tag" id="selectedExamTag">FMGE</span><h2 id="selectedExamTitle" style="margin-top:10px">Practice</h2></div><button class="secondary" id="changeExam">Change exam</button></div><p class="small">Choose a study mode. Actual recalled PYQs are kept separate from original PYT, clinical-case and image-based practice. Clinical cases use longer exam-style vignettes with decision-making clues. Every answer review includes the correct-answer rationale plus a separate explanation of why each distractor is wrong. High-yield buzzwords appear in BLACK text on a yellow highlight for quick revision.</p>
 <div class="exam-grid" style="margin:14px 0"><button class="exam-btn" onclick="showMode('PYQ')">📚 Year-wise PYQ Archive<span>Verified recalled questions only</span></button><button class="exam-btn" onclick="showMode('PYT')">📚 Q Bank • Subject-wise MCQs<span>All practice questions stay here • organised by subject</span></button></div>
 <div class="exam-grid" style="margin:12px 0"><button class="exam-btn" onclick="openSpecialBank('CLINICAL')">🩺 Clinical Case MCQs<span>Clinical reasoning • diagnosis • next best step</span></button><button class="exam-btn" onclick="openSpecialBank('IMAGE')">🖼️ Image-based MCQs<span>ECG • X-ray • pathology • real clinical photographs and diagnostic tracings across subjects</span></button></div>
@@ -623,6 +645,86 @@ const integratedTopicLibrary = [
    ['Exam traps & buzzwords','Pain + bleeding + positive pregnancy test • ampulla most common • transvaginal ultrasound + serial beta-hCG • haemodynamic instability = urgent surgery • methotrexate only in carefully selected stable patients.']
   ]}
 ];
+
+// V51: structured learning maps, clinical reasoning pathways and sourced real-image panels.
+const topicMasteryExtras = {
+'Pheochromocytoma': {
+ flow:[
+  ['1 • Recognise','Episodic headache + sweating + palpitations, with paroxysmal or sustained hypertension. Do not require the full triad.'],
+  ['2 • Explain the mechanism','Catecholamine excess stimulates α₁ receptors → vasoconstriction and hypertension; β₁ → tachycardia/increased contractility; metabolic effects can cause hyperglycaemia.'],
+  ['3 • Confirm biochemically','Plasma free metanephrines or 24-hour urinary fractionated metanephrines. Avoid using VMA alone as the preferred screening test.'],
+  ['4 • Localise','After biochemical evidence, use CT/MRI; functional imaging is selected for extra-adrenal, multifocal, recurrent or metastatic-risk disease.'],
+  ['5 • Prepare before surgery','Alpha blockade first + salt/fluid repletion as appropriate; add beta blockade only after adequate alpha blockade if tachycardia persists.'],
+  ['6 • Definitive care','Adrenalectomy for resectable adrenal pheochromocytoma, followed by biochemical follow-up and assessment for hereditary disease.']
+ ],
+ clinical:'A young patient with episodic palpitations, sweating and severe BP spikes → consider PPGL. First stabilise and assess; obtain metanephrines. Do not biopsy a suspected catecholamine-producing adrenal mass. Once confirmed, localise and plan specialist-led alpha blockade before surgery.',
+ traps:['A normal BP between attacks does not exclude pheochromocytoma.','Beta blocker before alpha blocker can precipitate severe hypertension due to unopposed alpha stimulation.','Histology cannot reliably label a pheochromocytoma benign; metastatic disease establishes malignant behaviour.'],
+ image:{url:'https://commons.wikimedia.org/wiki/Special:FilePath/Histopathology_of_pheochromocytoma_(original).jpg',caption:'H&E histopathology of pheochromocytoma. Look for nests of chromaffin cells (Zellballen) separated by delicate vascular stroma.',source:'Wikimedia Commons — CC0',link:'https://commons.wikimedia.org/wiki/File:Histopathology_of_pheochromocytoma_(original).jpg'}
+},
+'Tetralogy of Fallot (TOF)': {
+ flow:[
+  ['1 • Learn the four lesions','VSD + overriding aorta + right ventricular outflow tract obstruction (classically pulmonary stenosis) + RV hypertrophy.'],
+  ['2 • Understand embryology','Anterosuperior displacement of the infundibular/conal septum causes malalignment VSD and narrows the RV outflow tract.'],
+  ['3 • Follow the blood flow','RV outflow obstruction raises RV pressure → right-to-left shunt across the VSD → reduced pulmonary blood flow and systemic desaturation.'],
+  ['4 • Link signs to anatomy','Harsh ejection systolic murmur comes from RVOT obstruction; severity of obstruction drives cyanosis. Squatting/knee-chest increases systemic vascular resistance and reduces right-to-left shunting.'],
+  ['5 • Read investigations','CXR may show boot-shaped heart and decreased pulmonary vascularity; ECG commonly shows right-axis deviation/RVH. Echocardiography defines anatomy and is the key diagnostic study.'],
+  ['6 • Treat','Hypercyanotic spell: calm, knee-chest position, oxygen, IV access/fluids and urgent protocol-based therapy. Definitive treatment is surgical repair.']
+ ],
+ clinical:'Cyanotic child with a harsh ejection systolic murmur at the left upper sternal border and reduced pulmonary markings → think TOF. During a spell, the immediate aim is to reduce right-to-left shunting and improve pulmonary blood flow while arranging urgent specialist care.',
+ traps:['The VSD is usually large and non-restrictive; the murmur is mainly from RVOT obstruction, not the VSD.','Boot-shaped heart reflects RV hypertrophy; it is not the definitive diagnostic test.','22q11.2 deletion is an important association in conotruncal defects.'],
+ image:{url:'https://commons.wikimedia.org/wiki/Special:FilePath/Boot-shaped_heart.jpg',caption:'Chest radiograph in Tetralogy of Fallot showing the classic boot-shaped cardiac silhouette (coeur en sabot). Correlate with RV hypertrophy and reduced pulmonary vascularity.',source:'Wikimedia Commons — CC BY-SA 4.0',link:'https://commons.wikimedia.org/wiki/File:Boot-shaped_heart.jpg'}
+},
+'Nephrotic syndrome': {
+ flow:[
+  ['1 • Define the syndrome','Adult nephrotic-range proteinuria is classically >3.5 g/24 h, with hypoalbuminaemia and oedema; hyperlipidaemia/lipiduria are common associated findings. Use age-appropriate criteria in children.'],
+  ['2 • Understand the filter','The filtration barrier comprises fenestrated endothelium, glomerular basement membrane and podocyte slit diaphragm. Podocyte/barrier injury allows albumin to escape into urine.'],
+  ['3 • Explain oedema + risks','Hypoalbuminaemia lowers plasma oncotic pressure; renal sodium retention also contributes. Urinary loss of anticoagulant proteins (e.g., antithrombin) and immunoglobulins contributes to thrombosis and infection risk.'],
+  ['4 • Identify the cause','Children: minimal change disease is common. Adults: consider membranous nephropathy, FSGS, diabetic kidney disease and systemic causes. History, labs and biopsy decisions depend on age and context.'],
+  ['5 • Read the biopsy','MCD: often normal LM, usually negative IF, diffuse foot-process effacement on EM. FSGS: segmental sclerosis on LM. Membranous: capillary-wall thickening with subepithelial deposits/spikes; anti-PLA2R can support primary disease.'],
+  ['6 • Manage the cause + complications','Salt restriction, oedema control, antiproteinuric therapy when appropriate, vaccination/infection review and thrombosis-risk assessment. Immunosuppression is cause-specific—not automatic for every nephrotic patient.']
+ ],
+ clinical:'Oedema + frothy urine → quantify proteinuria, check serum albumin, creatinine/eGFR, urine sediment and lipid profile; then search for secondary causes. Decide on renal biopsy based on age, suspected diagnosis, atypical features and clinical guideline context.',
+ traps:['MCD: normal light microscopy does not mean normal electron microscopy.','Nephrotic syndrome is associated with renal vein thrombosis, but prophylactic anticoagulation is not automatic for every patient.','Do not give steroids to all nephrotic syndromes without considering the underlying cause and biopsy context.'],
+ image:{url:'https://nephsim.com/case-8-additional-pathology/mcd-em-labeled/',caption:'Electron micrograph showing effaced podocyte foot processes in minimal change disease. Compare the capillary lumen and urinary space; the flattened podocyte processes explain leakage of albumin across the filtration barrier.',source:'NephSim teaching case image (Arkana Laboratories credit on image)',link:'https://nephsim.com/case-8-diagnosis-conclusions/'}
+},
+'Preeclampsia': {
+ flow:[
+  ['1 • Apply the timing','New-onset hypertension after 20 weeks of gestation. Preeclampsia is hypertension plus proteinuria OR qualifying maternal end-organ dysfunction; proteinuria is not mandatory in the latter situation.'],
+  ['2 • Understand placentation','Impaired trophoblast invasion and incomplete spiral-artery remodelling leave a high-resistance uteroplacental circulation.'],
+  ['3 • Connect placenta to mother','Placental malperfusion promotes antiangiogenic signals (including sFlt-1) and endothelial dysfunction → vasoconstriction, capillary leak and multi-organ involvement.'],
+  ['4 • Screen for severe features','Persistent severe-range BP, neurologic symptoms, pulmonary oedema, thrombocytopenia, renal impairment or liver involvement/RUQ pain require urgent assessment. Check maternal labs and fetal wellbeing.'],
+  ['5 • Stabilise safely','Treat acute severe hypertension with protocol-based agents (e.g., IV labetalol, IV hydralazine or oral immediate-release nifedipine). Magnesium sulfate prevents/treats seizures; it is not an antihypertensive.'],
+  ['6 • Plan delivery','Delivery is definitive treatment. Timing depends on gestational age, severity, maternal stability and fetal status; stabilise the mother first and involve obstetric/neonatal teams.']
+ ],
+ clinical:'After 20 weeks, confirm BP and assess symptoms, urine protein, platelets, creatinine, liver enzymes and fetal status. If severe features or maternal/fetal instability are present, escalate urgently—do not wait for proteinuria to appear.',
+ traps:['Proteinuria is not essential if qualifying end-organ dysfunction is present.','Magnesium sulfate is for seizure prophylaxis/treatment, not BP control.','Low-dose aspirin is prevention for selected high-risk pregnancies; it does not treat established severe preeclampsia.','Placental syncytial knotting is a histologic association, not a standalone diagnostic test for preeclampsia.'],
+ image:{url:'https://commons.wikimedia.org/wiki/Special:FilePath/Histopathology_of_placenta_with_increased_syncytial_knotting_of_chorionic_villi,_annotated.jpg',caption:'Placental H&E micrograph showing increased syncytial knotting of chorionic villi. This may be seen with placental malperfusion; it is not specific enough to diagnose preeclampsia alone.',source:'Wikimedia Commons — CC0',link:'https://commons.wikimedia.org/wiki/File:Histopathology_of_placenta_with_increased_syncytial_knotting_of_chorionic_villi,_annotated.jpg'}
+},
+'Ectopic pregnancy': {
+ flow:[
+  ['1 • Think early','Any reproductive-age patient with pelvic/abdominal pain or vaginal bleeding and possible pregnancy needs pregnancy testing—even without known risk factors.'],
+  ['2 • Check stability first','Assess vitals, perfusion, abdominal signs and bleeding. Shock or suspected rupture takes priority over completing a diagnostic work-up.'],
+  ['3 • Combine two tests','Quantitative serum beta-hCG + transvaginal ultrasound. Interpret together; a single hCG value or an empty uterus alone does not prove ectopic pregnancy.'],
+  ['4 • Locate the pregnancy','Look for an extrauterine gestational sac/adnexal mass separate from the ovary and free pelvic fluid. If no location is seen in a stable patient, manage as pregnancy of unknown location with serial hCG and repeat ultrasound.'],
+  ['5 • Choose management','Unstable/ruptured: resuscitation and urgent surgery. Stable selected cases: expectant management, methotrexate or surgery according to symptoms, imaging, hCG trend, contraindications and follow-up reliability.'],
+  ['6 • Close the loop','After methotrexate or expectant management, serial beta-hCG follow-up is essential until resolution; counsel about rupture warning signs and return precautions.']
+ ],
+ clinical:'Positive pregnancy test + pain/bleeding → first decide whether the patient is haemodynamically stable. If stable, obtain quantitative beta-hCG and transvaginal ultrasound; if location remains unknown, arrange close serial follow-up rather than falsely reassuring from one scan.',
+ traps:['Ampulla is the commonest tubal site.','An empty uterus on one early scan is not enough to diagnose ectopic pregnancy.','Methotrexate is only for carefully selected stable patients who can complete follow-up; it is not appropriate for rupture or instability.'],
+ image:{url:'https://commons.wikimedia.org/wiki/Special:FilePath/Ectopic_pregnancy.JPG',caption:'Transvaginal ultrasound example of ectopic pregnancy. In practice, identify the adnexa separately from the ovary and assess for free fluid; correlate with beta-hCG and clinical stability.',source:'Wikimedia Commons — public domain',link:'https://commons.wikimedia.org/wiki/File:Ectopic_pregnancy.JPG'}
+}
+};
+function renderTopicMastery(t){
+ const x=topicMasteryExtras[t.title]; if(!x)return '';
+ const roadmap='<div class="qr-result"><h3>🧭 Best way to understand this topic</h3><p class="small">Follow this order. Each step answers the next clinical question, instead of memorising disconnected facts.</p><div class="qr-roadmap">'+x.flow.map(a=>'<div class="qr-step"><b>'+escHTML(a[0])+'</b><span>'+escHTML(a[1])+'</span></div>').join('')+'</div></div>';
+ const image=x.image?'<div class="qr-result"><h3>🖼️ Real clinical / pathology image</h3><div class="qr-image-grid"><figure class="qr-figure"><img loading="lazy" referrerpolicy="no-referrer" src="'+x.image.url+'" alt="'+escHTML(t.title+' medical image')+'" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'block\'"><p style="display:none" class="small">Image could not load in this browser. <a href="'+x.image.link+'" target="_blank" rel="noopener">Open original image source</a>.</p><figcaption>'+escHTML(x.image.caption)+'<br><a href="'+x.image.link+'" target="_blank" rel="noopener">Source &amp; licence: '+escHTML(x.image.source)+'</a></figcaption></figure></div></div>':'';
+ const flow='<div class="qr-flow"><h4>🩺 Clinical reasoning — connect the dots</h4>'+escHTML(x.clinical)+'</div>';
+ const traps='<div class="qr-callout"><b>⚠️ Common exam traps</b><ul>'+x.traps.map(v=>'<li>'+escHTML(v)+'</li>').join('')+'</ul></div>';
+ const nav='<div class="qr-section-nav"><a href="#qr-roadmap">Learning path</a><a href="#qr-images">Images</a><a href="#qr-core-sections">Integrated subjects</a><a href="#qr-clinical-flow">Clinical approach</a><a href="#qr-traps">Exam traps</a></div>';
+ return nav.replace('qr-roadmap','qr-roadmap').replace('qr-images','qr-images').replace('qr-core-sections','qr-core-sections').replace('qr-clinical-flow','qr-clinical-flow').replace('qr-traps','qr-traps')+
+ '<div id="qr-roadmap">'+roadmap+'</div><div id="qr-images">'+image+'</div><div id="qr-clinical-flow">'+flow+'</div><div id="qr-traps">'+traps+'</div>';
+}
+
 function openQuickRevision(){document.getElementById('examPicker').classList.add('hide');document.getElementById('studyHub').classList.add('hide');document.getElementById('quickRevisionArea').classList.remove('hide');document.getElementById('qrTopic').focus();}
 function closeQuickRevision(){document.getElementById('quickRevisionArea').classList.add('hide');document.getElementById('examPicker').classList.remove('hide');}
 function generateQuickRevision(){
@@ -632,7 +734,7 @@ function generateQuickRevision(){
  const terms=norm(topic).split(' ').filter(x=>x.length>2);
  const matched=integratedTopicLibrary.map(t=>({t,score:[t.title,...t.aliases].reduce((n,a)=>n+(norm(a)===norm(topic)?100:(norm(a).includes(norm(topic))||norm(topic).includes(norm(a))?20:0)),0)})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score)[0];
  let integrated='';
- if(matched){const t=matched.t;integrated='<div class="qr-result"><span class="tag">INTEGRATED CONCEPT • CURATED TOPIC</span><h3 style="margin-top:9px">🧠 '+escHTML(t.title)+' — Complete Concept</h3><p><b>Exam focus:</b> '+escHTML(document.getElementById('qrExam').value)+'</p><p class="small">Read the connected disciplines together; each section adds a different layer to the same clinical topic.</p></div>'+t.sections.map((sec,i)=>'<article class="qr-result"><h3>'+(i+1)+'. '+escHTML(sec[0])+'</h3><p>'+escHTML(sec[1])+'</p></article>').join('');}
+ if(matched){const t=matched.t;integrated='<div class="qr-result"><span class="tag">GUIDED INTEGRATED STUDY • CURATED TOPIC</span><h3 style="margin-top:9px">🧠 '+escHTML(t.title)+' — Understand step by step</h3><p><b>Exam focus:</b> '+escHTML(document.getElementById('qrExam').value)+'</p><p class="small">Start with the learning path, study the image, then connect each subject and finish with clinical reasoning and exam traps.</p></div>'+renderTopicMastery(t)+'<div id="qr-core-sections"><div class="qr-result"><h3>📚 Integrated subject explanations</h3><p class="small">These sections connect the foundational science with clinical diagnosis and management.</p></div>'+t.sections.map((sec,i)=>'<article class="qr-result"><h3>'+(i+1)+'. '+escHTML(sec[0])+'</h3><p>'+escHTML(sec[1])+'</p></article>').join('')+'</div>';}
  const rows=[];
  try{Object.entries(bank||{}).forEach(([subject,arr])=>(arr||[]).forEach(q=>rows.push({subject,q,kind:'Question bank'})));}catch(e){}
  try{Object.entries(flashExtra||{}).forEach(([subject,arr])=>(arr||[]).forEach(q=>rows.push({subject,q,kind:'Rapid revision'})));}catch(e){}
