@@ -571,7 +571,9 @@ function saveIncorrectQuestion(q,sub,type,userAnswer,examName){
   if(existing>=0)wrongNotebook[existing]=item;else wrongNotebook.unshift(item);
   if(wrongNotebook.length>500)wrongNotebook=wrongNotebook.slice(0,500);
   localStorage.setItem('medshubhWrongNotebook',JSON.stringify(wrongNotebook));
-  
+  updateWrongNotebookBadge();
+}
+
 // QUICK REVISION: searches the verified local MEDSHUBH question/revision library.
 function openQuickRevision(){document.getElementById('examPicker').classList.add('hide');document.getElementById('studyHub').classList.add('hide');document.getElementById('quickRevisionArea').classList.remove('hide');document.getElementById('qrTopic').focus();}
 function closeQuickRevision(){document.getElementById('quickRevisionArea').classList.add('hide');document.getElementById('examPicker').classList.remove('hide');}
@@ -589,8 +591,6 @@ function generateQuickRevision(){
  out.innerHTML='<div class="qr-result"><h3>📌 '+escHTML(topic)+' — Quick Exam Revision</h3><p><b>Exam focus:</b> '+escHTML(document.getElementById('qrExam').value)+'</p><p><b>Key takeaways:</b> Related verified questions and their explanations are summarised below. Read the buzzwords first, then test yourself with the linked concepts.</p><p><b>Library matches:</b> '+scored.length+' relevant items found.</p></div>'+scored.map((r,i)=>{let q=r.q;let key=norm(q.q);if(seen.has(key))return '';seen.add(key);let answer=Array.isArray(q.o)?q.o[q.a]:q.a;let explanation=q.e||'See the linked question rationale.';let buzz=q.b||'';return '<article class="qr-result"><div class="tag">'+escHTML(r.subject)+' • '+escHTML(r.kind)+'</div><h3 style="margin-top:9px">'+(i+1)+'. '+escHTML(q.q||'Related concept')+'</h3><p><b>Answer:</b> '+escHTML(answer||'Review source question')+'</p><p><b>Short explanation:</b> '+escHTML(explanation)+'</p>'+(buzz?'<p><b>Buzzwords:</b><br><span class="qr-buzz">'+escHTML(buzz)+'</span></p>':'')+'</article>';}).join('');
 }
 
-updateWrongNotebookBadge();
-}
 function updateWrongNotebookBadge(){
   const n=wrongNotebook.length;
   const badge=$('wrongCountBadge');if(badge)badge.textContent=n;
